@@ -6,6 +6,7 @@ import {
   View
 } from 'react-native';
 
+import NavigationBar from 'react-native-navbar';
 import DeviceInfo from 'react-native-device-info';
 
 import LevelStart from './levelstart';
@@ -33,9 +34,9 @@ export default class Start extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>
-          Ham考试
-        </Text>
+        <NavigationBar
+          title={{ title: 'Ham考试', style: styles.title }}
+        />
         <Text style={styles.instructions}>
           请选择类别，开始学习或模拟考试。
         </Text>
@@ -76,8 +77,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    textAlign: 'center',
-    margin: 10,
   },
   libInfo: {
     textAlign: 'center',

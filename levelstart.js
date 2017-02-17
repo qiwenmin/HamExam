@@ -7,6 +7,8 @@ import {
   View
 } from 'react-native';
 
+import NavigationBar from 'react-native-navbar';
+
 import Libs from './libs';
 import studyRecord from './studyrecord';
 import Quiz from './quiz';
@@ -47,11 +49,18 @@ export default class LevelStart extends Component {
     let level = this.props.context.level;
     let record = this.props.context.record;
 
+    let title = '【' + level.toUpperCase() + '类】共' + Libs[level].total +
+      '题，考' + Libs[level].quizCount + '题';
+
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>
-          【{level.toUpperCase()}类】共{Libs[level].total}道题，考{Libs[level].quizCount}道题。
-        </Text>
+        <NavigationBar
+          title={{ title: title, style: styles.title }}
+          leftButton={{
+            title: '<返回',
+            handler: this.props.navigator.pop
+          }}
+        />
         <Text style={styles.instructions}>
           已经学习{record.studied.size}道题，错题库中有{record.wrong.size}道题。
         </Text>
@@ -91,8 +100,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    textAlign: 'center',
-    margin: 10,
   },
   instructions: {
     textAlign: 'center',

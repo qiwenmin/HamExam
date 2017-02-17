@@ -9,6 +9,8 @@ import {
   ScrollView
 } from 'react-native';
 
+import NavigationBar from 'react-native-navbar';
+
 import _ from 'lodash';
 
 import Libs from './libs';
@@ -188,9 +190,18 @@ export default class Quiz extends Component {
 
     return (
       <View style={styles.container}>
-        <Text style={{textAlign: "left", fontSize: 12, margin: 5}}>
+        <NavigationBar
+          title={{
+            title: this.props.context.level.toUpperCase() + "类" + title,
+            style: styles.title
+          }}
+          leftButton={{
+            title: '<返回',
+            handler: this.props.navigator.pop
+          }}
+        />
+        <Text style={{textAlign: "center", fontSize: 12, margin: 2}}>
           {this.state.quizIndex + 1}/{this.quizTotal} |
-          {" " + this.props.context.level.toUpperCase() + "类" + title} |
           {progressInfo}
         </Text>
 
@@ -257,6 +268,10 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 10,
     backgroundColor: '#fff',
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: 'bold',
   },
   q: {
     fontSize: 16,
