@@ -18,7 +18,6 @@ export default class HamExam extends Component {
   render() {
     return (
       <Navigator initialRoute={{ component: Start, context: null }}
-        configureScene={(route) => { return Navigator.SceneConfigs.FadeAndroid; }}
         renderScene={(route, navigator) => {
           _navigator = navigator;
           return <route.component context={route.context} navigator={navigator} />
