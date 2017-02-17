@@ -15,5 +15,3 @@
 ```react-native run-ios```
 
 来运行。
-
-目前，Android版本是全功能的。iOS还没有返回上一个界面的功能。
