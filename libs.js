@@ -5,6 +5,7 @@ var Libs = {
   a: {
     quizCount: 30,
     passCount: 25,
+    name: "A类",
     idx: [
       "LK0001", "LK0002", "LK0003", "LK0004", "LK0005", "LK0011", "LK0012",
       "LK0104", "LK0007", "LK0008", "LK0111", "LK0009", "LK0051", "LK0052",
@@ -63,6 +64,7 @@ var Libs = {
   b: {
     quizCount: 50,
     passCount: 40,
+    name: "B类",
     idx: [
       "LK0001", "LK0002", "LK0003", "LK0004", "LK0005", "LK0011", "LK0012",
       "LK0104", "LK0007", "LK0008", "LK0111", "LK0187", "LK0183", "LK0026",
@@ -168,6 +170,7 @@ var Libs = {
   c: {
     quizCount: 80,
     passCount: 60,
+    name: "C类",
     idx: [
       "LK0001", "LK0002", "LK0003", "LK0004", "LK0005", "LK0011", "LK0012",
       "LK0104", "LK0007", "LK0008", "LK0111", "LK0187", "LK0183", "LK0026",
@@ -324,7 +327,6 @@ var Libs = {
       "LK1123", "LK1124", "LK1127", "LK0573", "LK0576", "LK0860", "LK0685"]
   },
   all: {
-    total: 1237,
     lib: liball
   }
 };

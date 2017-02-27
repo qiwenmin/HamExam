@@ -49,7 +49,7 @@ export default class LevelStart extends Component {
     let level = this.props.context.level;
     let record = this.props.context.record;
 
-    let title = '【' + level.toUpperCase() + '类】共' + Libs[level].total +
+    let title = '【' + Libs[level].name + '】共' + Libs[level].total +
       '题，考' + Libs[level].quizCount + '题';
 
     return (

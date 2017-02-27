@@ -192,7 +192,7 @@ export default class Quiz extends Component {
       <View style={styles.container}>
         <NavigationBar
           title={{
-            title: this.props.context.level.toUpperCase() + "类" + title,
+            title: Libs[this.props.context.level].name + title,
             style: styles.title
           }}
           leftButton={{

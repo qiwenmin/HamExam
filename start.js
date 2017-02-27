@@ -3,7 +3,8 @@ import {
   StyleSheet,
   TouchableHighlight,
   Text,
-  View
+  View,
+  Alert
 } from 'react-native';
 
 import NavigationBar from 'react-native-navbar';
@@ -57,12 +58,15 @@ export default class Start extends Component {
             </Text>
           </TouchableHighlight>
         </View>
-        <Text style={styles.libInfo}>
-          共{Libs.all.total}题 | 题库版本：{Libs.version} | 附图版本：{quizImgs.version} | 应用版本：{DeviceInfo.getVersion()}
-        </Text>
-        <Text style={styles.copy}>
-          © Qi Wenmin, 2017
-        </Text>
+        <TouchableHighlight underlayColor='#eee' onPress={() => {
+          Alert.alert('题库',
+            'A、B、C类：\n' +
+            '题库版本：' + Libs.version + '\n附图版本：' + quizImgs.version);
+        }}>
+          <Text style={styles.copy}>
+            © Qi Wenmin, 2017 | Version: {DeviceInfo.getVersion()}
+          </Text>
+        </TouchableHighlight>
       </View>
     );
   }
