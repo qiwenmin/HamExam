@@ -1,4 +1,10 @@
+import {extend} from 'lodash';
+
 import liball from './liball';
+
+import libFccT from './libFccT';
+import libFccG from './libFccG';
+import libFccE from './libFccE';
 
 var Libs = {
   version: "150612",
@@ -326,13 +332,35 @@ var Libs = {
       "LK1206", "LK0574", "LK0575", "LK1128", "LK1181", "LK1132", "LK1101",
       "LK1123", "LK1124", "LK1127", "LK0573", "LK0576", "LK0860", "LK0685"]
   },
+  fccT: {
+    quizCount: 35,
+    passCount: 26,
+    name: "FCC-T",
+    idx: libFccT.idx
+  },
+  fccG: {
+    quizCount: 35,
+    passCount: 26,
+    name: "FCC-G",
+    idx: libFccG.idx
+  },
+  fccE: {
+    quizCount: 50,
+    passCount: 37,
+    name: "FCC-E",
+    idx: libFccE.idx
+  },
   all: {
-    lib: liball
+    lib: extend({}, liball, libFccT.lib, libFccG.lib, libFccE.lib)
   }
 };
 
 Libs.a.total = Libs.a.idx.length;
 Libs.b.total = Libs.b.idx.length;
 Libs.c.total = Libs.c.idx.length;
+
+Libs.fccT.total = Libs.fccT.idx.length;
+Libs.fccG.total = Libs.fccG.idx.length;
+Libs.fccE.total = Libs.fccE.idx.length;
 
 export default Libs;

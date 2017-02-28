@@ -57,11 +57,30 @@ export default class Start extends Component {
               【C类】共{Libs.c.total}道题，考{Libs.c.quizCount}道题。
             </Text>
           </TouchableHighlight>
+          <TouchableHighlight underlayColor='#eee' onPress={() => this._pressLevel('fccT')}>
+            <Text style={styles.buttonText}>
+              【FCC-T】共{Libs.fccT.total}道题，考{Libs.fccT.quizCount}道题。
+            </Text>
+          </TouchableHighlight>
+          <TouchableHighlight underlayColor='#eee' onPress={() => this._pressLevel('fccG')}>
+            <Text style={styles.buttonText}>
+              【FCC-G】共{Libs.fccG.total}道题，考{Libs.fccG.quizCount}道题。
+            </Text>
+          </TouchableHighlight>
+          <TouchableHighlight underlayColor='#eee' onPress={() => this._pressLevel('fccE')}>
+            <Text style={styles.buttonText}>
+              【FCC-E】共{Libs.fccE.total}道题，考{Libs.fccE.quizCount}道题。
+            </Text>
+          </TouchableHighlight>
         </View>
         <TouchableHighlight underlayColor='#eee' onPress={() => {
           Alert.alert('题库',
             'A、B、C类：\n' +
-            '题库版本：' + Libs.version + '\n附图版本：' + quizImgs.version);
+            '题库版本：' + Libs.version + '\n附图版本：' + quizImgs.versionABC + '\n\n' +
+            'FCC Technician: 2014-2018\n' +
+            'FCC General: 2015-2019\n' +
+            'FCC Extra: 2016-2020'
+          );
         }}>
           <Text style={styles.copy}>
             © Qi Wenmin, 2017 | Version: {DeviceInfo.getVersion()}

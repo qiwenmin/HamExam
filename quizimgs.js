@@ -52,5 +52,24 @@ export default quizImgs = {
   "LK0943.jpg": require('./imgs/quiz/LK0943.jpg'),
   "LK0944.jpg": require('./imgs/quiz/LK0944.jpg'),
   "LK0945.jpg": require('./imgs/quiz/LK0945.jpg'),
-  version: '140331'
+  versionABC: '140331',
+
+  "FCC-T1.png": require('./imgs/quiz/FCC-T1.png'),
+  "FCC-T2.png": require('./imgs/quiz/FCC-T2.png'),
+  "FCC-T3.png": require('./imgs/quiz/FCC-T3.png'),
+
+  "FCC-G7-1.png": require('./imgs/quiz/FCC-G7-1.png'),
+
+  "FCC-E5-2.png": require('./imgs/quiz/FCC-E5-2.png'),
+  "FCC-E6-1.png": require('./imgs/quiz/FCC-E6-1.png'),
+  "FCC-E6-2.png": require('./imgs/quiz/FCC-E6-2.png'),
+  "FCC-E6-3.png": require('./imgs/quiz/FCC-E6-3.png'),
+  "FCC-E6-5.png": require('./imgs/quiz/FCC-E6-5.png'),
+  "FCC-E7-1.png": require('./imgs/quiz/FCC-E7-1.png'),
+  "FCC-E7-2.png": require('./imgs/quiz/FCC-E7-2.png'),
+  "FCC-E7-3.png": require('./imgs/quiz/FCC-E7-3.png'),
+  "FCC-E7-4.png": require('./imgs/quiz/FCC-E7-4.png'),
+  "FCC-E9-1.png": require('./imgs/quiz/FCC-E9-1.png'),
+  "FCC-E9-2.png": require('./imgs/quiz/FCC-E9-2.png'),
+  "FCC-E9-3.png": require('./imgs/quiz/FCC-E9-3.png')
 };
