@@ -49,8 +49,7 @@ export default class LevelStart extends Component {
     let level = this.props.context.level;
     let record = this.props.context.record;
 
-    let title = '【' + Libs[level].name + '】共' + Libs[level].total +
-      '题，考' + Libs[level].quizCount + '题';
+    let title = '【' + Libs[level].name + '】';
 
     return (
       <View style={styles.container}>
@@ -61,6 +60,9 @@ export default class LevelStart extends Component {
             handler: this.props.navigator.pop
           }}
         />
+        <Text style={styles.instructions}>
+          共{Libs[level].total}题，考{Libs[level].quizCount}题，答对{Libs[level].passCount}题通过考试。
+        </Text>
         <Text style={styles.instructions}>
           已经学习{record.studied.size}道题，错题库中有{record.wrong.size}道题。
         </Text>
