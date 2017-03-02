@@ -35,14 +35,22 @@ export default class LevelStart extends Component {
   }
 
   _clearRecord() {
-    this.props.context.record.quizIndex = 0;
-    this.props.context.record.wrongQuizIndex = 0;
-    this.props.context.record.studied = new Set();
-    this.props.context.record.wrong = new Set();
+    Alert.alert(
+      '清除学习记录', '清除【' + Libs[this.props.context.level].name + '】的学习记录吗？',
+      [
+        {text: '清除', onPress: () => {
+          this.props.context.record.quizIndex = 0;
+          this.props.context.record.wrongQuizIndex = 0;
+          this.props.context.record.studied = new Set();
+          this.props.context.record.wrong = new Set();
 
-    studyRecord.save(this.props.context.level, this.props.context.record);
+          studyRecord.save(this.props.context.level, this.props.context.record);
 
-    this.setState({});
+          this.setState({});
+        }},
+        {text: '取消'}
+      ]
+    );
   }
 
   render() {
