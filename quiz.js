@@ -133,7 +133,7 @@ export default class Quiz extends Component {
         var correctCount = this.quizTotal - this.wrong.size;
         var passed = '考过了～👍';
         if (correctCount < this.passCount) {
-          passed = '没考过～👎';
+          passed = '没考过～👎\n得答对' + this.passCount + '题才能通过呢。';
         }
         Alert.alert('测试完成！共答' + this.quizTotal + '题、答错' + this.wrong.size + '题。' + passed);
       }
@@ -173,8 +173,20 @@ export default class Quiz extends Component {
     }
 
     var progressInfo = " 已学：" + record.studied.size + " | 错题：" + record.wrong.size;
+    var progressColor = "black";
+
     if (this.props.context.libType == 'exam') {
-      progressInfo = " 已测：" + this.tested.size + " | 答错：" + this.wrong.size;
+      var passRate = this.passCount / this.quizTotal;
+      var rateString = " - / " + Math.round(passRate * 10000) / 100 + "%";
+
+      if (this.tested.size > 0) {
+        var currentPassRate = (this.tested.size - this.wrong.size) / this.tested.size;
+        progressColor = (currentPassRate >= passRate) ? "green" : "red";
+        rateString = Math.round(currentPassRate * 10000) / 100 + "% / " +
+          Math.round(passRate * 10000) / 100 + "%";
+      }
+
+      progressInfo = " 已测：" + this.tested.size + " | 答错：" + this.wrong.size + "\n正确率：" + rateString;
     }
 
     var quizImg = (<View/>);
@@ -200,7 +212,7 @@ export default class Quiz extends Component {
             handler: this.props.navigator.pop
           }}
         />
-        <Text style={{textAlign: "center", fontSize: 12, margin: 2}}>
+        <Text style={{textAlign: "center", fontSize: 12, margin: 2, color: progressColor}}>
           {this.state.quizIndex + 1}/{this.quizTotal} |
           {progressInfo}
         </Text>
