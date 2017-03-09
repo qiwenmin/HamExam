@@ -489,11 +489,11 @@ export default quizPool = {
     },
     "G1A04": {
       "id": "G1A04",
-      "q": "Which of the following amateur bands is restricted to communication on only specific channels, rather than",
-      "a": "30 meters",
-      "b": "11 meters",
-      "c": "12 meters",
-      "d": "quency ranges?"
+      "q": "Which of the following amateur bands is restricted to communication on only specific channels, rather than frequency ranges?",
+      "a": "60 meters",
+      "b": "12 meters",
+      "c": "30 meters",
+      "d": "11 meters"
     },
     "G1A05": {
       "id": "G1A05",
@@ -545,43 +545,43 @@ export default quizPool = {
     },
     "G1A11": {
       "id": "G1A11",
-      "q": "When General Class licensees are not permitted to use the entire voice portion of a particular band, which",
-      "a": "The lower frequency end",
-      "b": "tion of the voice segment is generally available to them?",
-      "c": "The upper frequency end",
-      "d": "The lower frequency end on frequencies below 7.3 MHz and the upper end on frequencies above 14.150"
+      "q": "When General Class licensees are not permitted to use the entire voice portion of a particular band, which portion of the voice segment is generally available to them?",
+      "a": "The upper frequency end",
+      "b": "The lower frequency end",
+      "c": "The lower frequency end on frequencies below 7.3 MHz and the upper end on frequencies above 14.150 MHz",
+      "d": "The upper frequency end on frequencies below 7.3 MHz and the lower end on frequencies above 14.150 MHz"
     },
     "G1A12": {
       "id": "G1A12",
-      "q": "Which of the following applies when the FCC rules designate the Amateur Service as a secondary user on a",
-      "a": "igned to that station",
-      "b": "Amateur stations must record the call sign of the primary service station before operating on a frequency",
-      "c": "d?",
-      "d": "Amateur stations are allowed to use the band only during emergencies"
+      "q": "Which of the following applies when the FCC rules designate the Amateur Service as a secondary user on a band?",
+      "a": "Amateur stations are allowed to use the band only if they do not cause harmful interference to primary users",
+      "b": "Amateur stations are allowed to use the band only during emergencies",
+      "c": "Amateur stations must record the call sign of the primary service station before operating on a frequency assigned to that station",
+      "d": "Amateur stations may only operate during specific hours of the day, while primary users are permitted 24 hour use of the band"
     },
     "G1A13": {
       "id": "G1A13",
-      "q": "What is the appropriate action if, when operating on either the 30- or 60- meter bands, a station in the primary",
-      "a": "Attempt to contact the station and request that it stop the interference",
-      "b": "Notify the FCCs regional Engineer in Charge of the interference",
-      "c": "Increase your transmitter's power to overcome the interference",
-      "d": "vice interferes with your contact?"
+      "q": "What is the appropriate action if, when operating on either the 30- or 60- meter bands, a station in the primary service interferes with your contact?",
+      "a": "Move to a clear frequency or stop transmitting",
+      "b": "Increase your transmitter's power to overcome the interference",
+      "c": "Attempt to contact the station and request that it stop the interference",
+      "d": "Notify the FCCs regional Engineer in Charge of the interference"
     },
     "G1A14": {
       "id": "G1A14",
-      "q": "In what ITU region is operation in the 7.175 to 7.300 MHz band permitted for a control operator holding an",
-      "a": "Region 1",
-      "b": "issued General Class license?",
-      "c": "Region 2",
-      "d": "Region 3"
+      "q": "In what ITU region is operation in the 7.175 to 7.300 MHz band permitted for a control operator holding an FCC issued General Class license?",
+      "a": "Region 2",
+      "b": "Region 1",
+      "c": "Region 3",
+      "d": "All three regions"
     },
     "G1B01": {
       "id": "G1B01",
-      "q": "What is the maximum height above ground to which an antenna structure may be erected without requiring",
-      "a": "100 feet",
-      "b": "50 feet",
-      "c": "ification to the FAA and registration with the FCC, provided it is not at or near a public use airport?",
-      "d": "200 feet"
+      "q": "What is the maximum height above ground to which an antenna structure may be erected without requiring notification to the FAA and registration with the FCC, provided it is not at or near a public use airport?",
+      "a": "200 feet",
+      "b": "100 feet",
+      "c": "50 feet",
+      "d": "300 feet"
     },
     "G1B02": {
       "id": "G1B02",
@@ -601,11 +601,11 @@ export default quizPool = {
     },
     "G1B04": {
       "id": "G1B04",
-      "q": "Which of the following must be true before amateur stations may provide communications to broadcasters for",
-      "a": "semination to the public?",
-      "b": "The communications must directly relate to the immediate safety of human life or protection of property and",
-      "c": "re must be no other means of communication reasonably available before or at the time of the event",
-      "d": "The communications must be approved by a local emergency preparedness official and conducted on"
+      "q": "Which of the following must be true before amateur stations may provide communications to broadcasters for dissemination to the public?",
+      "a": "The communications must directly relate to the immediate safety of human life or protection of property and there must be no other means of communication reasonably available before or at the time of the event",
+      "b": "The communications must be approved by a local emergency preparedness official and conducted on officially designated frequencies",
+      "c": "The FCC must have declared a state of emergency",
+      "d": "All of these choices are correct"
     },
     "G1B05": {
       "id": "G1B05",
@@ -641,11 +641,11 @@ export default quizPool = {
     },
     "G1B09": {
       "id": "G1B09",
-      "q": "When may an amateur station transmit communications in which the licensee or control operator has a",
-      "a": "uniary (monetary) interest?",
-      "b": "When other amateurs are being notified of the sale of apparatus normally used in an amateur station and such",
-      "c": "ivity is not done on a regular basis",
-      "d": "Only when there is no other means of communications readily available"
+      "q": "When may an amateur station transmit communications in which the licensee or control operator has a pecuniary (monetary) interest?",
+      "a": "When other amateurs are being notified of the sale of apparatus normally used in an amateur station and such activity is not done on a regular basis",
+      "b": "Only when there is no other means of communications readily available",
+      "c": "When other amateurs are being notified of the sale of any item with a monetary value less than $200 and such activity is not done on a regular basis",
+      "d": "Never"
     },
     "G1B10": {
       "id": "G1B10",
@@ -657,19 +657,19 @@ export default quizPool = {
     },
     "G1B11": {
       "id": "G1B11",
-      "q": "How does the FCC require an amateur station to be operated in all respects not specifically covered by the Part",
-      "a": "In conformance with Amateur Radio custom",
-      "b": "In conformance with the rules of the IARU",
-      "c": "rules?",
-      "d": "In conformance with good engineering and good amateur practice"
+      "q": "How does the FCC require an amateur station to be operated in all respects not specifically covered by the Part 97 rules?",
+      "a": "In conformance with good engineering and good amateur practice",
+      "b": "In conformance with Amateur Radio custom",
+      "c": "In conformance with the rules of the IARU",
+      "d": "All of these choices are correct"
     },
     "G1B12": {
       "id": "G1B12",
-      "q": "Who or what determines \"good engineering and good amateur practice\" as applied to the operation of an",
-      "a": "teur station in all respects not covered by the Part 97 rules?",
-      "b": "The FCC",
-      "c": "The Control Operator",
-      "d": "The IEEE"
+      "q": "Who or what determines \"good engineering and good amateur practice\" as applied to the operation of an amateur station in all respects not covered by the Part 97 rules?",
+      "a": "The FCC",
+      "b": "The Control Operator",
+      "c": "The IEEE",
+      "d": "The ITU"
     },
     "G1C01": {
       "id": "G1C01",
@@ -689,11 +689,11 @@ export default quizPool = {
     },
     "G1C03": {
       "id": "G1C03",
-      "q": "What is the maximum bandwidth permitted by FCC rules for Amateur Radio stations transmitting on USB",
-      "a": "quencies in the 60-meter band?",
-      "b": "2.8 kHz",
-      "c": "5.6 kHz",
-      "d": "1.8 kHz"
+      "q": "What is the maximum bandwidth permitted by FCC rules for Amateur Radio stations transmitting on USB frequencies in the 60-meter band?",
+      "a": "2.8 kHz",
+      "b": "5.6 kHz",
+      "c": "1.8 kHz",
+      "d": "3 kHz"
     },
     "G1C04": {
       "id": "G1C04",
@@ -705,11 +705,11 @@ export default quizPool = {
     },
     "G1C05": {
       "id": "G1C05",
-      "q": "Which of the following is a limitation on transmitter power on the 28 MHz band for a General Class control",
-      "a": "1000 watts PEP output",
-      "b": "100 watts PEP output",
-      "c": "rator?",
-      "d": "1500 watts PEP output"
+      "q": "Which of the following is a limitation on transmitter power on the 28 MHz band for a General Class control operator?",
+      "a": "1500 watts PEP output",
+      "b": "1000 watts PEP output",
+      "c": "100 watts PEP output",
+      "d": "2000 watts PEP output"
     },
     "G1C06": {
       "id": "G1C06",
@@ -729,19 +729,19 @@ export default quizPool = {
     },
     "G1C08": {
       "id": "G1C08",
-      "q": "What is the maximum symbol rate permitted for RTTY or data emission transmitted at frequencies below 28",
-      "a": "1200 baud",
-      "b": "56 kilobaud",
-      "c": "19.6 kilobaud",
-      "d": "?"
+      "q": "What is the maximum symbol rate permitted for RTTY or data emission transmitted at frequencies below 28 MHz?",
+      "a": "300 baud",
+      "b": "19.6 kilobaud",
+      "c": "1200 baud",
+      "d": "56 kilobaud"
     },
     "G1C09": {
       "id": "G1C09",
-      "q": "What is the maximum symbol rate permitted for RTTY or data emission transmitted on the 1.25-meter and 70-",
-      "a": "timeter bands?",
-      "b": "56 kilobaud",
-      "c": "19.6 kilobaud",
-      "d": "1200 baud"
+      "q": "What is the maximum symbol rate permitted for RTTY or data emission transmitted on the 1.25-meter and 70-centimeter bands?",
+      "a": "56 kilobaud",
+      "b": "19.6 kilobaud",
+      "c": "1200 baud",
+      "d": "300 baud"
     },
     "G1C10": {
       "id": "G1C10",
@@ -762,26 +762,26 @@ export default quizPool = {
     "G1D01": {
       "id": "G1D01",
       "q": "Who may receive credit for the elements represented by an expired amateur radio license?",
-      "a": "Any person who can demonstrate that they once held a FCC issued General, Advanced, or",
-      "b": "teur Extra class license that was not revoked by the FCC",
-      "c": "Anyone who held a FCC issued amateur radio license has been expired for not less than 5 years and not more",
-      "d": "n 15 years"
+      "a": "Any person who can demonstrate that they once held a FCC issued General, Advanced, or Amateur Extra class license that was not revoked by the FCC",
+      "b": "Anyone who held a FCC issued amateur radio license has been expired for not less than 5 years and not more than 15 years",
+      "c": "Any person that previously held an amateur license issued by another country, but only if that country has a current reciprocal licensing agreement with the FCC",
+      "d": "Only persons who once held a FCC Issued Novice, Technician, or Technician Plus license"
     },
     "G1D02": {
       "id": "G1D02",
-      "q": "What license examinations may you administer when you are an accredited VE holding a General Class",
-      "a": "General only",
-      "b": "General and Technician",
-      "c": "rator license?",
-      "d": "Technician only"
+      "q": "What license examinations may you administer when you are an accredited VE holding a General Class operator license?",
+      "a": "Technician only",
+      "b": "General only",
+      "c": "General and Technician",
+      "d": "Extra, General and Technician"
     },
     "G1D03": {
       "id": "G1D03",
-      "q": "On which of the following band segments may you operate if you are a Technician Class operator and have a",
-      "a": "Only on the Technician band segments until your license arrives in the mail",
-      "b": "Only the Technician band segments until your upgrade is posted in the FCC database",
-      "c": "E for General Class privileges?",
-      "d": "On any General or Technician Class band segment"
+      "q": "On which of the following band segments may you operate if you are a Technician Class operator and have a CSCE for General Class privileges?",
+      "a": "On any General or Technician Class band segment",
+      "b": "Only on the Technician band segments until your license arrives in the mail",
+      "c": "Only the Technician band segments until your upgrade is posted in the FCC database",
+      "d": "On any General or Technician Class band segment except 30-meters and 60-meters"
     },
     "G1D04": {
       "id": "G1D04",
@@ -793,19 +793,19 @@ export default quizPool = {
     },
     "G1D05": {
       "id": "G1D05",
-      "q": "Which of the following must a person have before they can be an administering VE for a Technician Class",
-      "a": "Possession of a properly obtained telegraphy license",
-      "b": "Notification to the FCC that you want to give an examination",
-      "c": "Receipt of a CSCE for General Class",
-      "d": "ense examination?"
+      "q": "Which of the following must a person have before they can be an administering VE for a Technician Class license examination?",
+      "a": "An FCC General Class or higher license and VEC accreditation",
+      "b": "Receipt of a CSCE for General Class",
+      "c": "Possession of a properly obtained telegraphy license",
+      "d": "Notification to the FCC that you want to give an examination"
     },
     "G1D06": {
       "id": "G1D06",
-      "q": "When must you add the special identifier \"AG\" after your call sign if you are a Technician Class licensee and",
-      "a": "e a CSCE for General Class operator privileges, but the FCC has not yet posted your upgrade on its website",
-      "b": "",
-      "c": "Whenever you operate using General Class frequency privileges",
-      "d": "Whenever you operate on any amateur frequency"
+      "q": "When must you add the special identifier \"AG\" after your call sign if you are a Technician Class licensee and have a CSCE for General Class operator privileges, but the FCC has not yet posted your upgrade on its website?",
+      "a": "Whenever you operate using General Class frequency privileges",
+      "b": "Whenever you operate on any amateur frequency",
+      "c": "Whenever you operate using Technician frequency privileges",
+      "d": "A special identifier is not required as long as your General Class license application has been filed with the FCC"
     },
     "G1D07": {
       "id": "G1D07",
@@ -841,83 +841,83 @@ export default quizPool = {
     },
     "G1D11": {
       "id": "G1D11",
-      "q": "If a person has an expired FCC issued amateur radio license of General Class or higher, what is required before",
-      "a": "The applicant must be able to produce a copy of a page from a call book published in the USA showing his",
-      "b": "They must have a letter from the FCC showing they once held an amateur or commercial license",
-      "c": "There are no requirements other than being able to show a copy of the expired license",
-      "d": "y can receive a new license?"
+      "q": "If a person has an expired FCC issued amateur radio license of General Class or higher, what is required before they can receive a new license?",
+      "a": "The applicant must pass the current element 2 exam",
+      "b": "There are no requirements other than being able to show a copy of the expired license",
+      "c": "The applicant must be able to produce a copy of a page from a call book published in the USA showing his or her name and address",
+      "d": "They must have a letter from the FCC showing they once held an amateur or commercial license"
     },
     "G1E01": {
       "id": "G1E01",
-      "q": "Which of the following would disqualify a third party from participating in stating a message over an amateur",
-      "a": "tion?",
-      "b": "The third party?s amateur license has been revoked and not reinstated",
-      "c": "The third party is not a U.S. citizen",
-      "d": "The third party is a licensed amateur"
+      "q": "Which of the following would disqualify a third party from participating in stating a message over an amateur station?",
+      "a": "The third party?s amateur license has been revoked and not reinstated",
+      "b": "The third party is not a U.S. citizen",
+      "c": "The third party is a licensed amateur",
+      "d": "The third party is speaking in a language other than English"
     },
     "G1E02": {
       "id": "G1E02",
-      "q": "When may a 10-meter repeater retransmit the 2-meter signal from a station having a Technician Class control",
-      "a": "ransmission",
-      "b": "Under no circumstances",
-      "c": "Only if the station on 10-meters is operating under a Special Temporary Authorization allowing such",
-      "d": "rator?"
+      "q": "When may a 10-meter repeater retransmit the 2-meter signal from a station having a Technician Class control operator?",
+      "a": "Only if the 10-meter repeater control operator holds at least a General Class license",
+      "b": "Only if the station on 10-meters is operating under a Special Temporary Authorization allowing such retransmission",
+      "c": "Only during an FCC declared general state of communications emergency",
+      "d": "Under no circumstances"
     },
     "G1E03": {
       "id": "G1E03",
-      "q": "What is required to conduct communications with a digital station operating under automatic control outside the",
-      "a": "omatic control band segments?",
-      "b": "The station initiating the contact must be under local or remote control",
-      "c": "The interrogating transmission must be made by another automatically controlled station",
-      "d": "No third part traffic maybe be transmitted"
+      "q": "What is required to conduct communications with a digital station operating under automatic control outside the automatic control band segments?",
+      "a": "The station initiating the contact must be under local or remote control",
+      "b": "The interrogating transmission must be made by another automatically controlled station",
+      "c": "No third part traffic maybe be transmitted",
+      "d": "The control operator of the interrogating station must hold an Extra Class license"
     },
     "G1E04": {
       "id": "G1E04",
-      "q": "Which of the following conditions require a licensed Amateur Radio operator to take specific steps to avoid",
-      "a": "When a station is transmitting spread spectrum emissions",
-      "b": "When operating within one mile of an FCC Monitoring Station",
-      "c": "When using a band where the Amateur Service is secondary",
-      "d": "mful interference to other users or facilities?"
+      "q": "Which of the following conditions require a licensed Amateur Radio operator to take specific steps to avoid harmful interference to other users or facilities?",
+      "a": "All of these choices are correct",
+      "b": "When using a band where the Amateur Service is secondary",
+      "c": "When a station is transmitting spread spectrum emissions",
+      "d": "When operating within one mile of an FCC Monitoring Station"
     },
     "G1E05": {
       "id": "G1E05",
       "q": "What types of messages for a third party in another country may be transmitted by an amateur station?",
-      "a": "Only messages relating to Amateur Radio or remarks of a personal character, or messages relating to",
+      "a": "Only messages relating to Amateur Radio or remarks of a personal character, or messages relating to emergencies or disaster relief",
       "b": "Only messages for other licensed amateurs",
       "c": "Any message, as long as the amateur operator is not paid",
-      "d": "rgencies or disaster relief"
+      "d": "Any messages, as long as the text of the message is recorded in the station log"
     },
     "G1E06": {
       "id": "G1E06",
-      "q": "Which of the following applies in the event of interference between a coordinated repeater and an",
-      "a": "oordinated repeater?",
-      "b": "The licensee of the uncoordinated repeater has primary responsibility to resolve the interference",
-      "c": "The licensee of the coordinated repeater has primary responsibility to resolve the interference",
-      "d": "Both repeater licensees share equal responsibility to resolve the interference"
+      "q": "Which of the following applies in the event of interference between a coordinated repeater and an uncoordinated repeater?",
+      "a": "The licensee of the uncoordinated repeater has primary responsibility to resolve the interference",
+      "b": "The licensee of the coordinated repeater has primary responsibility to resolve the interference",
+      "c": "Both repeater licensees share equal responsibility to resolve the interference",
+      "d": "The frequency coordinator bears primary responsibility to resolve the interference"
     },
     "G1E07": {
       "id": "G1E07",
-      "q": "With which foreign countries is third party traffic prohibited, except for messages directly involving",
-      "a": "Countries in ITU Region 1",
-      "b": "Countries in ITU Region 2",
-      "c": "rgencies or disaster relief communications?",
-      "d": "Every foreign country, unless there is a third party agreement in effect with that country"
+      "q": "With which foreign countries is third party traffic prohibited, except for messages directly involving emergencies or disaster relief communications?",
+      "a": "Every foreign country, unless there is a third party agreement in effect with that country",
+      "b": "Countries in ITU Region 1",
+      "c": "Countries in ITU Region 2",
+      "d": "Any country which is not a member of the International Amateur Radio Union (IARU)"
     },
     "G1E08": {
       "id": "G1E08",
-      "q": "Which of the following is a requirement for a non-licensed person to communicate with a foreign Amateur",
-      "a": "Information must be exchanged in English",
-      "b": "io station from a station with an FCC-granted license at which an FCC licensed control operator is present?",
-      "c": "The foreign amateur station must be in a country with which the United States has a third party agreement",
-      "d": "The control operator must have at least a General Class license"
+      "q": "Which of the following is a requirement for a non-licensed person to communicate with a foreign Amateur Radio station from a station with an FCC-granted license at which an FCC licensed control operator is present?",
+      "a": "The foreign amateur station must be in a country with which the United States has a third party agreement",
+      "b": "Information must be exchanged in English",
+      "c": "The control operator must have at least a General Class license",
+      "d": "All of these choices are correct"
     },
     "G1E09": {
       "id": "G1E09",
-      "q": "What language must be used when identifying your station if you are using a language other than English in",
-      "a": "Any language recognized by the United Nations",
-      "b": "The language being used for the contact",
-      "c": "ing a contact using phone emission?",
-      "d": "English only"
+      "q": "What language must be used when identifying your station if you are using a language other than English in making a contact using phone emission?",
+      "a": "English only",
+      "b": "Any language recognized by the United Nations",
+      "c": "The language being used for the contact",
+      "d": "English, Spanish, French, or German"
     },
     "G1E10": {
       "id": "G1E10",
@@ -929,27 +929,27 @@ export default quizPool = {
     },
     "G1E11": {
       "id": "G1E11",
-      "q": "Which of the following is the FCC term for an unattended digital station that transfers messages to and from the",
-      "a": "Robotically controlled station",
-      "b": "Locally controlled station",
-      "c": "ernet?",
-      "d": "Automatically controlled digital station"
+      "q": "Which of the following is the FCC term for an unattended digital station that transfers messages to and from the Internet?",
+      "a": "Automatically controlled digital station",
+      "b": "Robotically controlled station",
+      "c": "Locally controlled station",
+      "d": "Fail-safe digital station"
     },
     "G1E12": {
       "id": "G1E12",
-      "q": "Under what circumstances are messages that are sent via digital modes exempt from Part 97 third party rules",
-      "a": "t apply to other modes of communication?",
-      "b": "Under no circumstances",
-      "c": "When messages are encrypted",
-      "d": "When messages are not encrypted"
+      "q": "Under what circumstances are messages that are sent via digital modes exempt from Part 97 third party rules that apply to other modes of communication?",
+      "a": "Under no circumstances",
+      "b": "When messages are encrypted",
+      "c": "When messages are not encrypted",
+      "d": "When under automatic control"
     },
     "G1E13": {
       "id": "G1E13",
-      "q": "On what bands may automatically controlled stations transmitting RTTY or data emissions communicate with",
-      "a": "Only in the non-phone Extra Class segments of the bands",
-      "b": "On any band segment where digital operation is permitted",
-      "c": "Anywhere in the non-phone segments of the 10-meter or shorter wavelength bands",
-      "d": "er automatically controlled digital stations?"
+      "q": "On what bands may automatically controlled stations transmitting RTTY or data emissions communicate with other automatically controlled digital stations?",
+      "a": "Anywhere in the 1.25 meter or shorter wavelength bands, and in specified segments of the 80-meter through 2-meter bands",
+      "b": "Anywhere in the non-phone segments of the 10-meter or shorter wavelength bands",
+      "c": "Only in the non-phone Extra Class segments of the bands",
+      "d": "On any band segment where digital operation is permitted"
     },
     "G2A01": {
       "id": "G2A01",
@@ -961,11 +961,11 @@ export default quizPool = {
     },
     "G2A02": {
       "id": "G2A02",
-      "q": "Which of the following modes is most commonly used for voice communications on the 160-meter, 75-meter,",
-      "a": "Upper sideband",
-      "b": "40-meter bands?",
-      "c": "Lower sideband",
-      "d": "Vestigial sideband"
+      "q": "Which of the following modes is most commonly used for voice communications on the 160-meter, 75-meter, and 40-meter bands?",
+      "a": "Lower sideband",
+      "b": "Upper sideband",
+      "c": "Vestigial sideband",
+      "d": "Double sideband"
     },
     "G2A03": {
       "id": "G2A03",
@@ -993,11 +993,11 @@ export default quizPool = {
     },
     "G2A06": {
       "id": "G2A06",
-      "q": "Which of the following is an advantage when using single sideband as compared to other analog voice modes",
-      "a": "Very high fidelity voice modulation",
-      "b": "the HF amateur bands?",
-      "c": "Less bandwidth used and greater power efficiency",
-      "d": "Ease of tuning on receive and immunity to impulse noise"
+      "q": "Which of the following is an advantage when using single sideband as compared to other analog voice modes on the HF amateur bands?",
+      "a": "Less bandwidth used and greater power efficiency",
+      "b": "Very high fidelity voice modulation",
+      "c": "Ease of tuning on receive and immunity to impulse noise",
+      "d": "Less subject to interference from atmospheric static crashes"
     },
     "G2A07": {
       "id": "G2A07",
@@ -1049,27 +1049,27 @@ export default quizPool = {
     },
     "G2B02": {
       "id": "G2B02",
-      "q": "What is the first thing you should do if you are communicating with another amateur station and hear a station",
-      "a": "Continue your communication because you were on the frequency first",
-      "b": "distress break in?",
-      "c": "Acknowledge the station in distress and determine what assistance may be needed",
-      "d": "Change to a different frequency"
+      "q": "What is the first thing you should do if you are communicating with another amateur station and hear a station in distress break in?",
+      "a": "Acknowledge the station in distress and determine what assistance may be needed",
+      "b": "Continue your communication because you were on the frequency first",
+      "c": "Change to a different frequency",
+      "d": "Immediately cease all transmissions"
     },
     "G2B03": {
       "id": "G2B03",
-      "q": "If propagation changes during your contact and you notice increasing interference from other activity on the",
-      "a": "Report the interference to your local Amateur Auxiliary Coordinator",
-      "b": "Tell the interfering stations to change frequency",
-      "c": "e frequency, what should you do?",
-      "d": "As a common courtesy, move your contact to another frequency"
+      "q": "If propagation changes during your contact and you notice increasing interference from other activity on the same frequency, what should you do?",
+      "a": "As a common courtesy, move your contact to another frequency",
+      "b": "Report the interference to your local Amateur Auxiliary Coordinator",
+      "c": "Tell the interfering stations to change frequency",
+      "d": "Increase power to overcome interference"
     },
     "G2B04": {
       "id": "G2B04",
-      "q": "When selecting a CW transmitting frequency, what minimum separation should be used to minimize",
-      "a": "5 to 50 Hz",
-      "b": "erference to stations on adjacent frequencies?",
-      "c": "150 to 500 Hz",
-      "d": "1 to 3 kHz"
+      "q": "When selecting a CW transmitting frequency, what minimum separation should be used to minimize interference to stations on adjacent frequencies?",
+      "a": "150 to 500 Hz",
+      "b": "5 to 50 Hz",
+      "c": "1 to 3 kHz",
+      "d": "3 to 6 kHz"
     },
     "G2B05": {
       "id": "G2B05",
@@ -1081,35 +1081,35 @@ export default quizPool = {
     },
     "G2B06": {
       "id": "G2B06",
-      "q": "What is a practical way to avoid harmful interference on an apparently clear frequency before calling CQ on",
-      "a": "or phone?",
-      "b": "Send \"QRL?\" on CW, followed by your call sign; or, if using phone, ask if the frequency is in use, followed",
-      "c": "your call sign",
-      "d": "Listen for 2 minutes before calling CQ"
+      "q": "What is a practical way to avoid harmful interference on an apparently clear frequency before calling CQ on CW or phone?",
+      "a": "Send \"QRL?\" on CW, followed by your call sign; or, if using phone, ask if the frequency is in use, followed by your call sign",
+      "b": "Listen for 2 minutes before calling CQ",
+      "c": "Send the letter \"V\" in Morse code several times and listen for a response or say \"test\" several times and listen for a response",
+      "d": "Send \"QSY\" on CW or if using phone, announce \"the frequency is in use\", then give your call and listen for a response"
     },
     "G2B07": {
       "id": "G2B07",
-      "q": "Which of the following complies with good amateur practice when choosing a frequency on which to initiate a",
-      "a": "Identify your station by transmitting your call sign at least 3 times",
-      "b": "Check to see if the channel is assigned to another station",
-      "c": "l?",
-      "d": "Follow the voluntary band plan for the operating mode you intend to use"
+      "q": "Which of the following complies with good amateur practice when choosing a frequency on which to initiate a call?",
+      "a": "Follow the voluntary band plan for the operating mode you intend to use",
+      "b": "Identify your station by transmitting your call sign at least 3 times",
+      "c": "Check to see if the channel is assigned to another station",
+      "d": "All of these choices are correct"
     },
     "G2B08": {
       "id": "G2B08",
       "q": "What is the \"DX window\" in a voluntary band plan?",
-      "a": "A portion of the band that should not be used for contacts between stations within the 48 contiguous United",
-      "b": "tes",
-      "c": "An FCC rule that prohibits contacts between stations within the United States and possessions in that portion",
-      "d": "the band"
+      "a": "A portion of the band that should not be used for contacts between stations within the 48 contiguous United States",
+      "b": "An FCC rule that prohibits contacts between stations within the United States and possessions in that portion of the band",
+      "c": "An FCC rule that allows only digital contacts in that portion of the band",
+      "d": "A portion of the band that has been voluntarily set aside for digital contacts only"
     },
     "G2B09": {
       "id": "G2B09",
-      "q": "Who may be the control operator of an amateur station transmitting in RACES to assist relief operations during",
-      "a": "isaster?",
-      "b": "Only a person holding an FCC issued amateur operator license",
-      "c": "Only a RACES net control operator",
-      "d": "A person holding an FCC issued amateur operator license or an appropriate government official"
+      "q": "Who may be the control operator of an amateur station transmitting in RACES to assist relief operations during a disaster?",
+      "a": "Only a person holding an FCC issued amateur operator license",
+      "b": "Only a RACES net control operator",
+      "c": "A person holding an FCC issued amateur operator license or an appropriate government official",
+      "d": "Any control operator when normal communication systems are operational"
     },
     "G2B10": {
       "id": "G2B10",
@@ -1229,7 +1229,7 @@ export default quizPool = {
       "a": "Amateur volunteers who are formally enlisted to monitor the airwaves for rules violations",
       "b": "Amateur volunteers who conduct amateur licensing examinations",
       "c": "Amateur volunteers who conduct frequency coordination for amateur VHF repeaters",
-      "d": "Amateur volunteers who use their station equipment to help civil defense organizations in times of"
+      "d": "Amateur volunteers who use their station equipment to help civil defense organizations in times of emergency"
     },
     "G2D02": {
       "id": "G2D02",
@@ -1253,15 +1253,15 @@ export default quizPool = {
       "a": "A map that shows true bearings and distances from a particular location",
       "b": "A map that shows accurate land masses",
       "c": "A map that shows the angle at which an amateur satellite crosses the equator",
-      "d": "A map that shows the number of degrees longitude that an amateur satellite appears to move westward at the"
+      "d": "A map that shows the number of degrees longitude that an amateur satellite appears to move westward at the equator with each orbit"
     },
     "G2D05": {
       "id": "G2D05",
-      "q": "When is it permissible to communicate with amateur stations in countries outside the areas administered by the",
-      "a": "Only when the foreign country has a formal third party agreement filed with the FCC",
-      "b": "eral Communications Commission?",
-      "c": "When the contact is with amateurs in any country except those whose administrations have notified the ITU",
-      "d": "t they object to such communications"
+      "q": "When is it permissible to communicate with amateur stations in countries outside the areas administered by the Federal Communications Commission?",
+      "a": "When the contact is with amateurs in any country except those whose administrations have notified the ITU that they object to such communications",
+      "b": "Only when the foreign country has a formal third party agreement filed with the FCC",
+      "c": "When the contact is with amateurs in any country as long as the communication is conducted in English",
+      "d": "Only when the foreign country is a member of the International Amateur Radio Union"
     },
     "G2D06": {
       "id": "G2D06",
@@ -1321,11 +1321,11 @@ export default quizPool = {
     },
     "G2E02": {
       "id": "G2E02",
-      "q": "How can a PACTOR modem or controller be used to determine if the channel is in use by other PACTOR",
-      "a": "Unplug the data connector temporarily and see if the channel-busy indication is turned off",
-      "b": "tions?",
-      "c": "Put the modem or controller in a mode which allows monitoring communications without a connection",
-      "d": "Transmit UI packets several times and wait to see if there is a response from another PACTOR station"
+      "q": "How can a PACTOR modem or controller be used to determine if the channel is in use by other PACTOR stations?",
+      "a": "Put the modem or controller in a mode which allows monitoring communications without a connection",
+      "b": "Unplug the data connector temporarily and see if the channel-busy indication is turned off",
+      "c": "Transmit UI packets several times and wait to see if there is a response from another PACTOR station",
+      "d": "Send the message: \"Is this frequency in use?\""
     },
     "G2E03": {
       "id": "G2E03",
@@ -1409,19 +1409,19 @@ export default quizPool = {
     },
     "G2E14": {
       "id": "G2E14",
-      "q": "What could be wrong if you cannot decode an RTTY or other FSK signal even",
-      "a": "You may be listening on the wrong sideband",
-      "b": "The mark and space frequencies may be reversed",
-      "c": "You may have selected the wrong baud rate",
-      "d": "ugh it is apparently tuned in properly?"
+      "q": "What could be wrong if you cannot decode an RTTY or other FSK signal even though it is apparently tuned in properly?",
+      "a": "All of these choices are correct",
+      "b": "You may have selected the wrong baud rate",
+      "c": "You may be listening on the wrong sideband",
+      "d": "The mark and space frequencies may be reversed"
     },
     "G2E15": {
       "id": "G2E15",
-      "q": "What is the standard sideband used to generate a JT65 or JT9 digital signal when using AFSK in any amateur",
-      "a": "LSB",
-      "b": "d?",
-      "c": "USB",
-      "d": "DSB"
+      "q": "What is the standard sideband used to generate a JT65 or JT9 digital signal when using AFSK in any amateur band?",
+      "a": "USB",
+      "b": "LSB",
+      "c": "DSB",
+      "d": "SSB"
     },
     "G3A01": {
       "id": "G3A01",
@@ -1433,19 +1433,19 @@ export default quizPool = {
     },
     "G3A02": {
       "id": "G3A02",
-      "q": "What effect does a Sudden Ionospheric Disturbance have on the daytime ionospheric propagation of HF radio",
-      "a": "It enhances propagation on all HF frequencies",
-      "b": "es?",
-      "c": "It disrupts signals on lower frequencies more than those on higher frequencies",
-      "d": "It disrupts communications via satellite more than direct communications"
+      "q": "What effect does a Sudden Ionospheric Disturbance have on the daytime ionospheric propagation of HF radio waves?",
+      "a": "It disrupts signals on lower frequencies more than those on higher frequencies",
+      "b": "It enhances propagation on all HF frequencies",
+      "c": "It disrupts communications via satellite more than direct communications",
+      "d": "None, because only areas on the night side of the Earth are affected"
     },
     "G3A03": {
       "id": "G3A03",
-      "q": "Approximately how long does it take the increased ultraviolet and X-ray radiation from solar flares to affect",
-      "a": "1 to 2 hours",
-      "b": "28 days",
-      "c": "io propagation on the Earth?",
-      "d": "8 minutes"
+      "q": "Approximately how long does it take the increased ultraviolet and X-ray radiation from solar flares to affect radio propagation on the Earth?",
+      "a": "8 minutes",
+      "b": "1 to 2 hours",
+      "c": "28 days",
+      "d": "20 to 40 hours"
     },
     "G3A04": {
       "id": "G3A04",
@@ -1458,10 +1458,10 @@ export default quizPool = {
     "G3A05": {
       "id": "G3A05",
       "q": "What is the solar flux index?",
-      "a": "Another name for the American sunspot number",
-      "b": "th",
-      "c": "A count of sunspots which is adjusted for solar emissions",
-      "d": "A measure of the highest frequency that is useful for ionospheric propagation between two points on the"
+      "a": "A measure of solar radiation at 10.7 centimeters wavelength",
+      "b": "A count of sunspots which is adjusted for solar emissions",
+      "c": "Another name for the American sunspot number",
+      "d": "A measure of the highest frequency that is useful for ionospheric propagation between two points on the Earth"
     },
     "G3A06": {
       "id": "G3A06",
@@ -1473,11 +1473,11 @@ export default quizPool = {
     },
     "G3A07": {
       "id": "G3A07",
-      "q": "At what point in the solar cycle does the 20-meter band usually support worldwide propagation during daylight",
-      "a": "Only at the minimum point of the solar cycle",
-      "b": "At the summer solstice",
-      "c": "Only at the maximum point of the solar cycle",
-      "d": "rs?"
+      "q": "At what point in the solar cycle does the 20-meter band usually support worldwide propagation during daylight hours?",
+      "a": "At any point in the solar cycle",
+      "b": "Only at the maximum point of the solar cycle",
+      "c": "Only at the minimum point of the solar cycle",
+      "d": "At the summer solstice"
     },
     "G3A08": {
       "id": "G3A08",
@@ -1529,11 +1529,11 @@ export default quizPool = {
     },
     "G3A14": {
       "id": "G3A14",
-      "q": "How are radio communications usually affected by the charged particles that reach the Earth from solar coronal",
-      "a": "HF communications are improved",
-      "b": "es?",
-      "c": "HF communications are disturbed",
-      "d": "VHF/UHF ducting is improved"
+      "q": "How are radio communications usually affected by the charged particles that reach the Earth from solar coronal holes?",
+      "a": "HF communications are disturbed",
+      "b": "HF communications are improved",
+      "c": "VHF/UHF ducting is improved",
+      "d": "VHF/UHF ducting is disturbed"
     },
     "G3A15": {
       "id": "G3A15",
@@ -1577,19 +1577,19 @@ export default quizPool = {
     },
     "G3B04": {
       "id": "G3B04",
-      "q": "What is a reliable way to determine if the MUF is high enough to support skip propagation between your station",
-      "a": "a distant location on frequencies between 14 and 30 MHz?",
-      "b": "Listen for signals from an international beacon in the frequency range you plan to use",
-      "c": "Send a series of dots on the band and listen for echoes from your signal",
-      "d": "Check the strength of TV signals from Western Europe"
+      "q": "What is a reliable way to determine if the MUF is high enough to support skip propagation between your station and a distant location on frequencies between 14 and 30 MHz?",
+      "a": "Listen for signals from an international beacon in the frequency range you plan to use",
+      "b": "Send a series of dots on the band and listen for echoes from your signal",
+      "c": "Check the strength of TV signals from Western Europe",
+      "d": "Check the strength of signals in the MF AM broadcast band"
     },
     "G3B05": {
       "id": "G3B05",
-      "q": "What usually happens to radio waves with frequencies below the MUF and above the LUF when they are sent",
-      "a": "o the ionosphere?",
-      "b": "They are bent back to the Earth",
-      "c": "They pass through the ionosphere",
-      "d": "They are amplified by interaction with the ionosphere"
+      "q": "What usually happens to radio waves with frequencies below the MUF and above the LUF when they are sent into the ionosphere?",
+      "a": "They are bent back to the Earth",
+      "b": "They pass through the ionosphere",
+      "c": "They are amplified by interaction with the ionosphere",
+      "d": "They are bent and trapped in the ionosphere to circle the Earth"
     },
     "G3B06": {
       "id": "G3B06",
@@ -1617,19 +1617,19 @@ export default quizPool = {
     },
     "G3B09": {
       "id": "G3B09",
-      "q": "What is the approximate maximum distance along the Earth's surface that is normally covered in one hop using",
-      "a": "1,200 miles",
-      "b": "180 miles",
-      "c": "F2 region?",
-      "d": "2,500 miles"
+      "q": "What is the approximate maximum distance along the Earth's surface that is normally covered in one hop using the F2 region?",
+      "a": "2,500 miles",
+      "b": "1,200 miles",
+      "c": "180 miles",
+      "d": "12,000 miles"
     },
     "G3B10": {
       "id": "G3B10",
-      "q": "What is the approximate maximum distance along the Earth's surface that is normally covered in one hop using",
-      "a": "180 miles",
-      "b": "E region?",
-      "c": "1,200 miles",
-      "d": "2,500 miles"
+      "q": "What is the approximate maximum distance along the Earth's surface that is normally covered in one hop using the E region?",
+      "a": "1,200 miles",
+      "b": "180 miles",
+      "c": "2,500 miles",
+      "d": "12,000 miles"
     },
     "G3B11": {
       "id": "G3B11",
@@ -1681,11 +1681,11 @@ export default quizPool = {
     },
     "G3C05": {
       "id": "G3C05",
-      "q": "Why is long distance communication on the 40-meter, 60-meter, 80-meter and 160-meter bands more difficult",
-      "a": "The F layer is unstable during daylight hours",
-      "b": "The F layer absorbs signals at these frequencies during daylight hours",
-      "c": "ing the day?",
-      "d": "The D layer absorbs signals at these frequencies during daylight hours"
+      "q": "Why is long distance communication on the 40-meter, 60-meter, 80-meter and 160-meter bands more difficult during the day?",
+      "a": "The D layer absorbs signals at these frequencies during daylight hours",
+      "b": "The F layer is unstable during daylight hours",
+      "c": "The F layer absorbs signals at these frequencies during daylight hours",
+      "d": "The E layer is unstable during daylight hours"
     },
     "G3C06": {
       "id": "G3C06",
@@ -1713,35 +1713,35 @@ export default quizPool = {
     },
     "G3C09": {
       "id": "G3C09",
-      "q": "What type of radio wave propagation allows a signal to be detected at a distance too far for ground wave",
-      "a": "Faraday rotation",
-      "b": "pagation but too near for normal sky-wave propagation?",
-      "c": "Scatter",
-      "d": "Sporadic-E skip"
+      "q": "What type of radio wave propagation allows a signal to be detected at a distance too far for ground wave propagation but too near for normal sky-wave propagation?",
+      "a": "Scatter",
+      "b": "Faraday rotation",
+      "c": "Sporadic-E skip",
+      "d": "Short-path skip"
     },
     "G3C10": {
       "id": "G3C10",
-      "q": "Which of the following might be an indication that signals heard on the HF bands are being received via scatter",
-      "a": "The signal is heard on a frequency below the Maximum Usable Frequency",
-      "b": "The communication is during a sunspot maximum",
-      "c": "The communication is during a sudden ionospheric disturbance",
-      "d": "pagation?"
+      "q": "Which of the following might be an indication that signals heard on the HF bands are being received via scatter propagation?",
+      "a": "The signal is heard on a frequency above the Maximum Usable Frequency",
+      "b": "The communication is during a sudden ionospheric disturbance",
+      "c": "The signal is heard on a frequency below the Maximum Usable Frequency",
+      "d": "The communication is during a sunspot maximum"
     },
     "G3C11": {
       "id": "G3C11",
-      "q": "Which of the following antenna types will be most effective for skip communications on 40-meters during the",
-      "a": "A vertical antenna",
-      "b": "?",
-      "c": "A horizontal dipole placed between 1/8 and 1/4 wavelength above the ground",
-      "d": "A left-hand circularly polarized antenna"
+      "q": "Which of the following antenna types will be most effective for skip communications on 40-meters during the day?",
+      "a": "A horizontal dipole placed between 1/8 and 1/4 wavelength above the ground",
+      "b": "A vertical antenna",
+      "c": "A left-hand circularly polarized antenna",
+      "d": "A light-hand circularly polarized antenna"
     },
     "G3C12": {
       "id": "G3C12",
-      "q": "Which ionospheric layer is the most absorbent of long skip signals during daylight hours on frequencies below",
-      "a": "The E layer",
-      "b": "The F2 layer",
-      "c": "The F1 layer",
-      "d": "MHz?"
+      "q": "Which ionospheric layer is the most absorbent of long skip signals during daylight hours on frequencies below 10 MHz?",
+      "a": "The D layer",
+      "b": "The F1 layer",
+      "c": "The E layer",
+      "d": "The F2 layer"
     },
     "G3C13": {
       "id": "G3C13",
@@ -1761,11 +1761,11 @@ export default quizPool = {
     },
     "G4A02": {
       "id": "G4A02",
-      "q": "What is one advantage of selecting the opposite or \"reverse\" sideband when receiving CW signals on a typical",
-      "a": "More stations can be accommodated within a given signal passband",
-      "b": "Interference from impulse noise will be eliminated",
-      "c": "transceiver?",
-      "d": "It may be possible to reduce or eliminate interference from other signals"
+      "q": "What is one advantage of selecting the opposite or \"reverse\" sideband when receiving CW signals on a typical HF transceiver?",
+      "a": "It may be possible to reduce or eliminate interference from other signals",
+      "b": "More stations can be accommodated within a given signal passband",
+      "c": "Interference from impulse noise will be eliminated",
+      "d": "Accidental out of band operation can be prevented"
     },
     "G4A03": {
       "id": "G4A03",
@@ -1777,11 +1777,11 @@ export default quizPool = {
     },
     "G4A04": {
       "id": "G4A04",
-      "q": "What reading on the plate current meter of a vacuum tube RF power amplifier indicates correct adjustment of",
-      "a": "A pronounced peak",
-      "b": "plate tuning control?",
-      "c": "A pronounced dip",
-      "d": "No change will be observed"
+      "q": "What reading on the plate current meter of a vacuum tube RF power amplifier indicates correct adjustment of the plate tuning control?",
+      "a": "A pronounced dip",
+      "b": "A pronounced peak",
+      "c": "No change will be observed",
+      "d": "A slow, rhythmic oscillation"
     },
     "G4A05": {
       "id": "G4A05",
@@ -1857,19 +1857,19 @@ export default quizPool = {
     },
     "G4A14": {
       "id": "G4A14",
-      "q": "What is likely to happen if a transceiver?s ALC system is not set properly when transmitting AFSK signals with",
-      "a": "ALC will invert the modulation of the AFSK mode",
-      "b": "radio using single sideband mode?",
-      "c": "Improper action of ALC distorts the signal and can cause spurious emissions",
-      "d": "When using digital modes, too much ALC activity can cause the transmitter to overheat"
+      "q": "What is likely to happen if a transceiver?s ALC system is not set properly when transmitting AFSK signals with the radio using single sideband mode?",
+      "a": "Improper action of ALC distorts the signal and can cause spurious emissions",
+      "b": "ALC will invert the modulation of the AFSK mode",
+      "c": "When using digital modes, too much ALC activity can cause the transmitter to overheat",
+      "d": "All of these choices are correct"
     },
     "G4A15": {
       "id": "G4A15",
-      "q": "Which of the following can be a symptom of transmitted RF being picked up by an audio cable carrying AFSK",
-      "a": "Frequent connection timeouts",
-      "b": "The VOX circuit does not un-key the transmitter",
-      "c": "The transmitter signal is distorted",
-      "d": "a signals between a computer and a transceiver?"
+      "q": "Which of the following can be a symptom of transmitted RF being picked up by an audio cable carrying AFSK data signals between a computer and a transceiver?",
+      "a": "All of these choices are correct",
+      "b": "The transmitter signal is distorted",
+      "c": "Frequent connection timeouts",
+      "d": "The VOX circuit does not un-key the transmitter"
     },
     "G4B01": {
       "id": "G4B01",
@@ -1897,11 +1897,11 @@ export default quizPool = {
     },
     "G4B04": {
       "id": "G4B04",
-      "q": "What signal source is connected to the vertical input of an oscilloscope when checking the RF envelope pattern",
-      "a": "The transmitter balanced mixer output",
-      "b": "The local oscillator of the transmitter",
-      "c": "An external RF oscillator",
-      "d": "a transmitted signal?"
+      "q": "What signal source is connected to the vertical input of an oscilloscope when checking the RF envelope pattern of a transmitted signal?",
+      "a": "The attenuated RF output of the transmitter",
+      "b": "An external RF oscillator",
+      "c": "The transmitter balanced mixer output",
+      "d": "The local oscillator of the transmitter"
     },
     "G4B05": {
       "id": "G4B05",
@@ -1929,11 +1929,11 @@ export default quizPool = {
     },
     "G4B08": {
       "id": "G4B08",
-      "q": "Which of the following instruments may be used to monitor relative RF output when making antenna and",
-      "a": "nsmitter adjustments?",
-      "b": "A field strength meter",
-      "c": "An antenna noise bridge",
-      "d": "A multimeter"
+      "q": "Which of the following instruments may be used to monitor relative RF output when making antenna and transmitter adjustments?",
+      "a": "A field strength meter",
+      "b": "An antenna noise bridge",
+      "c": "A multimeter",
+      "d": "A Q meter"
     },
     "G4B09": {
       "id": "G4B09",
@@ -1953,11 +1953,11 @@ export default quizPool = {
     },
     "G4B11": {
       "id": "G4B11",
-      "q": "Which of the following must be connected to an antenna analyzer when it is being used for SWR",
-      "a": "Transmitter",
-      "b": "Receiver",
-      "c": "surements?",
-      "d": "Antenna and feed line"
+      "q": "Which of the following must be connected to an antenna analyzer when it is being used for SWR measurements?",
+      "a": "Antenna and feed line",
+      "b": "Transmitter",
+      "c": "Receiver",
+      "d": "All of these choices are correct"
     },
     "G4B12": {
       "id": "G4B12",
@@ -1977,11 +1977,11 @@ export default quizPool = {
     },
     "G4B14": {
       "id": "G4B14",
-      "q": "What is an instance in which the use of an instrument with analog readout may be preferred over an instrument",
-      "a": "When measuring the frequency of an oscillator",
-      "b": "When testing logic circuits",
-      "c": "When high precision is desired",
-      "d": "h a digital readout?"
+      "q": "What is an instance in which the use of an instrument with analog readout may be preferred over an instrument with a digital readout?",
+      "a": "When adjusting tuned circuits",
+      "b": "When high precision is desired",
+      "c": "When measuring the frequency of an oscillator",
+      "d": "When testing logic circuits"
     },
     "G4B15": {
       "id": "G4B15",
@@ -2009,11 +2009,11 @@ export default quizPool = {
     },
     "G4C03": {
       "id": "G4C03",
-      "q": "What sound is heard from an audio device or telephone if there is interference from a nearby single sideband",
-      "a": "On-and-off humming or clicking",
-      "b": "A steady hum whenever the transmitter is on the air",
-      "c": "ne transmitter?",
-      "d": "Distorted speech"
+      "q": "What sound is heard from an audio device or telephone if there is interference from a nearby single sideband phone transmitter?",
+      "a": "Distorted speech",
+      "b": "On-and-off humming or clicking",
+      "c": "A steady hum whenever the transmitter is on the air",
+      "d": "Clearly audible speech"
     },
     "G4C04": {
       "id": "G4C04",
@@ -2025,11 +2025,11 @@ export default quizPool = {
     },
     "G4C05": {
       "id": "G4C05",
-      "q": "What might be the problem if you receive an RF burn when touching your equipment while transmitting on an",
-      "a": "The ground rod is resonant",
-      "b": "Flat braid rather than round wire has been used for the ground wire",
-      "c": "Insulated wire has been used for the ground wire",
-      "d": "band, assuming the equipment is connected to a ground rod?"
+      "q": "What might be the problem if you receive an RF burn when touching your equipment while transmitting on an HF band, assuming the equipment is connected to a ground rod?",
+      "a": "The ground wire has high impedance on that frequency",
+      "b": "Insulated wire has been used for the ground wire",
+      "c": "The ground rod is resonant",
+      "d": "Flat braid rather than round wire has been used for the ground wire"
     },
     "G4C06": {
       "id": "G4C06",
@@ -2129,11 +2129,11 @@ export default quizPool = {
     },
     "G4D05": {
       "id": "G4D05",
-      "q": "How does a signal that reads 20 dB over S9 compare to one that reads S9 on a receiver, assuming a properly",
-      "a": "It is 20 times more powerful",
-      "b": "It is 10 times less powerful",
-      "c": "It is 20 times less powerful",
-      "d": "ibrated S meter?"
+      "q": "How does a signal that reads 20 dB over S9 compare to one that reads S9 on a receiver, assuming a properly calibrated S meter?",
+      "a": "It is 100 times more powerful",
+      "b": "It is 20 times less powerful",
+      "c": "It is 20 times more powerful",
+      "d": "It is 10 times less powerful"
     },
     "G4D06": {
       "id": "G4D06",
@@ -2145,43 +2145,43 @@ export default quizPool = {
     },
     "G4D07": {
       "id": "G4D07",
-      "q": "How much must the power output of a transmitter be raised to change the",
-      "a": "Approximately 2 times",
-      "b": "Approximately 1.5 times",
-      "c": "eter reading on a distant receiver from S8 to S9?",
-      "d": "Approximately 4 times"
+      "q": "How much must the power output of a transmitter be raised to change the S meter reading on a distant receiver from S8 to S9?",
+      "a": "Approximately 4 times",
+      "b": "Approximately 2 times",
+      "c": "Approximately 1.5 times",
+      "d": "Approximately 8 times"
     },
     "G4D08": {
       "id": "G4D08",
-      "q": "What frequency range is occupied by a 3 kHz LSB signal when the displayed carrier frequency is set to 7.178",
-      "a": "7.178 to 7.184 MHz",
-      "b": "7.178 to 7.181 MHz",
-      "c": "?",
-      "d": "7.175 to 7.178 MHz"
+      "q": "What frequency range is occupied by a 3 kHz LSB signal when the displayed carrier frequency is set to 7.178 MHz?",
+      "a": "7.175 to 7.178 MHz",
+      "b": "7.178 to 7.184 MHz",
+      "c": "7.178 to 7.181 MHz",
+      "d": "7.1765 to 7.1795 MHz"
     },
     "G4D09": {
       "id": "G4D09",
-      "q": "What frequency range is occupied by a 3 kHz USB signal with the displayed carrier frequency set to 14.347",
-      "a": "14.347 to 14.647 MHz",
-      "b": "?",
-      "c": "14.347 to 14.350 MHz",
-      "d": "14.344 to 14.347 MHz"
+      "q": "What frequency range is occupied by a 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz?",
+      "a": "14.347 to 14.350 MHz",
+      "b": "14.347 to 14.647 MHz",
+      "c": "14.344 to 14.347 MHz",
+      "d": "14.3455 to 14.3485 MHz"
     },
     "G4D10": {
       "id": "G4D10",
-      "q": "How close to the lower edge of the 40-meter General Class phone segment should your displayed carrier",
-      "a": "quency be when using 3 kHz wide LSB?",
-      "b": "At least 3 kHz above the edge of the segment",
-      "c": "At least 3 kHz below the edge of the segment",
-      "d": "Your displayed carrier frequency may be set at the edge of the segment"
+      "q": "How close to the lower edge of the 40-meter General Class phone segment should your displayed carrier frequency be when using 3 kHz wide LSB?",
+      "a": "At least 3 kHz above the edge of the segment",
+      "b": "At least 3 kHz below the edge of the segment",
+      "c": "Your displayed carrier frequency may be set at the edge of the segment",
+      "d": "At least 1 kHz above the edge of the segment"
     },
     "G4D11": {
       "id": "G4D11",
-      "q": "How close to the upper edge of the 20-meter General Class band should your displayed carrier frequency be",
-      "a": "At least 3 kHz above the edge of the band",
-      "b": "n using 3 kHz wide USB?",
-      "c": "At least 3 kHz below the edge of the band",
-      "d": "Your displayed carrier frequency may be set at the edge of the band"
+      "q": "How close to the upper edge of the 20-meter General Class band should your displayed carrier frequency be when using 3 kHz wide USB?",
+      "a": "At least 3 kHz below the edge of the band",
+      "b": "At least 3 kHz above the edge of the band",
+      "c": "Your displayed carrier frequency may be set at the edge of the band",
+      "d": "At least 1 kHz below the edge of the segment"
     },
     "G4E01": {
       "id": "G4E01",
@@ -2201,27 +2201,27 @@ export default quizPool = {
     },
     "G4E03": {
       "id": "G4E03",
-      "q": "Which of the following direct, fused power connections would be the best for a 100 watt HF mobile",
-      "a": "tallation?",
-      "b": "To the battery using heavy gauge wire",
-      "c": "To the alternator or generator using heavy gauge wire",
-      "d": "To the battery using resistor wire"
+      "q": "Which of the following direct, fused power connections would be the best for a 100 watt HF mobile installation?",
+      "a": "To the battery using heavy gauge wire",
+      "b": "To the alternator or generator using heavy gauge wire",
+      "c": "To the battery using resistor wire",
+      "d": "To the alternator or generator using resistor wire"
     },
     "G4E04": {
       "id": "G4E04",
-      "q": "Why is it best NOT to draw the DC power for a 100 watt HF transceiver from a vehicle?s auxiliary power",
-      "a": "The socket is not wired with an RF-shielded power cable",
-      "b": "ket?",
-      "c": "The socket's wiring may be inadequate for the current drawn by the transceiver",
-      "d": "The DC polarity of the socket is reversed from the polarity of modern HF transceivers"
+      "q": "Why is it best NOT to draw the DC power for a 100 watt HF transceiver from a vehicle?s auxiliary power socket?",
+      "a": "The socket's wiring may be inadequate for the current drawn by the transceiver",
+      "b": "The socket is not wired with an RF-shielded power cable",
+      "c": "The DC polarity of the socket is reversed from the polarity of modern HF transceivers",
+      "d": "Drawing more than 50 watts from this socket could cause the engine to overheat"
     },
     "G4E05": {
       "id": "G4E05",
-      "q": "Which of the following most limits the effectiveness of an HF mobile transceiver operating in the 75-meter",
-      "a": "The wire gauge of the DC power line to the transceiver",
-      "b": "\"Picket Fencing\" signal variation",
-      "c": "d?",
-      "d": "The antenna system"
+      "q": "Which of the following most limits the effectiveness of an HF mobile transceiver operating in the 75-meter band?",
+      "a": "The antenna system",
+      "b": "The wire gauge of the DC power line to the transceiver",
+      "c": "\"Picket Fencing\" signal variation",
+      "d": "FCC rules limiting mobile output power on the 75-meter band"
     },
     "G4E06": {
       "id": "G4E06",
@@ -2233,11 +2233,11 @@ export default quizPool = {
     },
     "G4E07": {
       "id": "G4E07",
-      "q": "Which of the following may cause interference to be heard in the receiver of an HF radio installed in a recent",
-      "a": "The vehicle control computer",
-      "b": "The battery charging system",
-      "c": "The fuel delivery system",
-      "d": "el vehicle?"
+      "q": "Which of the following may cause interference to be heard in the receiver of an HF radio installed in a recent model vehicle?",
+      "a": "All of these choices are correct",
+      "b": "The fuel delivery system",
+      "c": "The vehicle control computer",
+      "d": "The battery charging system"
     },
     "G4E08": {
       "id": "G4E08",
@@ -2257,19 +2257,19 @@ export default quizPool = {
     },
     "G4E10": {
       "id": "G4E10",
-      "q": "What is the reason that a series diode is connected between a solar panel and a storage battery that is being",
-      "a": "The diode serves to regulate the charging voltage to prevent overcharge",
-      "b": "rged by the panel?",
-      "c": "The diode prevents self-discharge of the battery though the panel during times of low or no illumination",
-      "d": "The diode limits the current flowing from the panel to a safe value"
+      "q": "What is the reason that a series diode is connected between a solar panel and a storage battery that is being charged by the panel?",
+      "a": "The diode prevents self-discharge of the battery though the panel during times of low or no illumination",
+      "b": "The diode serves to regulate the charging voltage to prevent overcharge",
+      "c": "The diode limits the current flowing from the panel to a safe value",
+      "d": "The diode greatly increases the efficiency during times of high illumination"
     },
     "G4E11": {
       "id": "G4E11",
-      "q": "Which of the following is a disadvantage of using wind as the primary source of power for an emergency",
-      "a": "The voltage and current ratings of such systems are not compatible with amateur equipment",
-      "b": "The conversion efficiency from mechanical energy to electrical energy is less than 2 percent",
-      "c": "tion?",
-      "d": "A large energy storage system is needed to supply power when the wind is not blowing"
+      "q": "Which of the following is a disadvantage of using wind as the primary source of power for an emergency station?",
+      "a": "A large energy storage system is needed to supply power when the wind is not blowing",
+      "b": "The voltage and current ratings of such systems are not compatible with amateur equipment",
+      "c": "The conversion efficiency from mechanical energy to electrical energy is less than 2 percent",
+      "d": "All of these choices are correct"
     },
     "G5A01": {
       "id": "G5A01",
@@ -2285,7 +2285,7 @@ export default quizPool = {
       "a": "Opposition to the flow of alternating current caused by capacitance or inductance",
       "b": "Opposition to the flow of direct current caused by resistance",
       "c": "A property of ideal resistors in AC circuits",
-      "d": "A large spark produced at switch contacts when an inductor is"
+      "d": "A large spark produced at switch contacts when an inductor is de-energized"
     },
     "G5A03": {
       "id": "G5A03",
@@ -2321,11 +2321,11 @@ export default quizPool = {
     },
     "G5A07": {
       "id": "G5A07",
-      "q": "What happens when the impedance of an electrical load is equal to the output impedance of a power source,",
-      "a": "No current can flow through the circuit",
-      "b": "The source delivers minimum power to the load",
-      "c": "The electrical load is shorted",
-      "d": "uming both impedances are resistive?"
+      "q": "What happens when the impedance of an electrical load is equal to the output impedance of a power source, assuming both impedances are resistive?",
+      "a": "The source can deliver maximum power to the load",
+      "b": "The electrical load is shorted",
+      "c": "No current can flow through the circuit",
+      "d": "The source delivers minimum power to the load"
     },
     "G5A08": {
       "id": "G5A08",
@@ -2417,19 +2417,19 @@ export default quizPool = {
     },
     "G5B06": {
       "id": "G5B06",
-      "q": "What is the output PEP from a transmitter if an oscilloscope measures 200 volts peak-to-peak across a 50 ohm",
-      "a": "1.4 watts",
-      "b": "my load connected to the transmitter output?",
-      "c": "100 watts",
-      "d": "353.5 watts"
+      "q": "What is the output PEP from a transmitter if an oscilloscope measures 200 volts peak-to-peak across a 50 ohm dummy load connected to the transmitter output?",
+      "a": "100 watts",
+      "b": "1.4 watts",
+      "c": "353.5 watts",
+      "d": "400 watts"
     },
     "G5B07": {
       "id": "G5B07",
-      "q": "What value of an AC signal produces the same power dissipation in a resistor as a DC voltage of the same",
-      "a": "The peak value",
-      "b": "The peak-to-peak value",
-      "c": "ue?",
-      "d": "The RMS value"
+      "q": "What value of an AC signal produces the same power dissipation in a resistor as a DC voltage of the same value?",
+      "a": "The RMS value",
+      "b": "The peak value",
+      "c": "The peak-to-peak value",
+      "d": "The reciprocal of the RMS value"
     },
     "G5B08": {
       "id": "G5B08",
@@ -2473,27 +2473,27 @@ export default quizPool = {
     },
     "G5B13": {
       "id": "G5B13",
-      "q": "What is the output PEP of an unmodulated carrier if an average reading wattmeter connected to the transmitter",
-      "a": "530 watts",
-      "b": "put indicates 1060 watts?",
-      "c": "1060 watts",
-      "d": "1500 watts"
+      "q": "What is the output PEP of an unmodulated carrier if an average reading wattmeter connected to the transmitter output indicates 1060 watts?",
+      "a": "1060 watts",
+      "b": "530 watts",
+      "c": "1500 watts",
+      "d": "2120 watts"
     },
     "G5B14": {
       "id": "G5B14",
-      "q": "What is the output PEP from a transmitter if an oscilloscope measures 500 volts peak-to-peak across a 50 ohm",
-      "a": "8.75 watts",
-      "b": "istive load connected to the transmitter output?",
-      "c": "625 watts",
-      "d": "2500 watts"
+      "q": "What is the output PEP from a transmitter if an oscilloscope measures 500 volts peak-to-peak across a 50 ohm resistive load connected to the transmitter output?",
+      "a": "625 watts",
+      "b": "8.75 watts",
+      "c": "2500 watts",
+      "d": "5000 watts"
     },
     "G5C01": {
       "id": "G5C01",
-      "q": "What causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is",
-      "a": "Displacement current coupling",
-      "b": "Capacitive coupling",
-      "c": "nected across its primary winding?",
-      "d": "Mutual inductance"
+      "q": "What causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is connected across its primary winding?",
+      "a": "Mutual inductance",
+      "b": "Displacement current coupling",
+      "c": "Capacitive coupling",
+      "d": "Mutual capacitance"
     },
     "G5C02": {
       "id": "G5C02",
@@ -2529,27 +2529,27 @@ export default quizPool = {
     },
     "G5C06": {
       "id": "G5C06",
-      "q": "What is the RMS voltage across a 500-turn secondary winding in a transformer if the 2250-turn primary is",
-      "a": "540 volts",
-      "b": "2370 volts",
-      "c": "nected to 120 VAC?",
-      "d": "26.7 volts"
+      "q": "What is the RMS voltage across a 500-turn secondary winding in a transformer if the 2250-turn primary is connected to 120 VAC?",
+      "a": "26.7 volts",
+      "b": "540 volts",
+      "c": "2370 volts",
+      "d": "5.9 volts"
     },
     "G5C07": {
       "id": "G5C07",
-      "q": "What is the turns ratio of a transformer used to match an audio amplifier having 600 ohm output impedance to a",
-      "a": "aker having 4 ohm impedance?",
-      "b": "12.2 to 1",
-      "c": "24.4 to 1",
-      "d": "150 to 1"
+      "q": "What is the turns ratio of a transformer used to match an audio amplifier having 600 ohm output impedance to a speaker having 4 ohm impedance?",
+      "a": "12.2 to 1",
+      "b": "24.4 to 1",
+      "c": "150 to 1",
+      "d": "300 to 1"
     },
     "G5C08": {
       "id": "G5C08",
-      "q": "What is the equivalent capacitance of two 5.0 nanofarad capacitors and one 750 picofarad capacitor connected",
-      "a": "3583 picofarads",
-      "b": "576.9 nanofarads",
-      "c": "1733 picofarads",
-      "d": "parallel?"
+      "q": "What is the equivalent capacitance of two 5.0 nanofarad capacitors and one 750 picofarad capacitor connected in parallel?",
+      "a": "10.750 nanofarads",
+      "b": "1733 picofarads",
+      "c": "3583 picofarads",
+      "d": "576.9 nanofarads"
     },
     "G5C09": {
       "id": "G5C09",
@@ -2609,11 +2609,11 @@ export default quizPool = {
     },
     "G5C16": {
       "id": "G5C16",
-      "q": "Why is the conductor of the primary winding of many voltage step up transformers larger in diameter than the",
-      "a": "To improve the coupling between the primary and secondary",
-      "b": "ductor of the secondary winding?",
-      "c": "To accommodate the higher current of the primary",
-      "d": "To prevent parasitic oscillations due to resistive losses in the primary"
+      "q": "Why is the conductor of the primary winding of many voltage step up transformers larger in diameter than the conductor of the secondary winding?",
+      "a": "To accommodate the higher current of the primary",
+      "b": "To improve the coupling between the primary and secondary",
+      "c": "To prevent parasitic oscillations due to resistive losses in the primary",
+      "d": "To insure that the volume of the primary winding is equal to the volume of the secondary winding"
     },
     "G5C17": {
       "id": "G5C17",
@@ -2673,11 +2673,11 @@ export default quizPool = {
     },
     "G6A06": {
       "id": "G6A06",
-      "q": "Which of the following is an advantage of using a Schottky diode in an RF switching circuit rather than a",
-      "a": "ndard silicon diode?",
-      "b": "Lower capacitance",
-      "c": "Lower inductance",
-      "d": "Longer switching times"
+      "q": "Which of the following is an advantage of using a Schottky diode in an RF switching circuit rather than a standard silicon diode?",
+      "a": "Lower capacitance",
+      "b": "Lower inductance",
+      "c": "Longer switching times",
+      "d": "Higher breakdown voltage"
     },
     "G6A07": {
       "id": "G6A07",
@@ -3134,35 +3134,35 @@ export default quizPool = {
     },
     "G7C01": {
       "id": "G7C01",
-      "q": "Which of the following is used to process signals from the balanced modulator then send them to the mixer in",
-      "a": "Carrier oscillator",
-      "b": "e single sideband phone transmitters?",
-      "c": "Filter",
-      "d": "IF amplifier"
+      "q": "Which of the following is used to process signals from the balanced modulator then send them to the mixer in some single sideband phone transmitters?",
+      "a": "Filter",
+      "b": "Carrier oscillator",
+      "c": "IF amplifier",
+      "d": "RF amplifier"
     },
     "G7C02": {
       "id": "G7C02",
-      "q": "Which circuit is used to combine signals from the carrier oscillator and speech amplifier then send the result to",
-      "a": "IF amplifier",
-      "b": "Discriminator",
-      "c": "Detector",
-      "d": "filter in some single sideband phone transmitters?"
+      "q": "Which circuit is used to combine signals from the carrier oscillator and speech amplifier then send the result to the filter in some single sideband phone transmitters?",
+      "a": "Balanced modulator",
+      "b": "Detector",
+      "c": "IF amplifier",
+      "d": "Discriminator"
     },
     "G7C03": {
       "id": "G7C03",
-      "q": "What circuit is used to process signals from the RF amplifier and local oscillator then send the result to the IF",
-      "a": "IF amplifier",
-      "b": "Balanced modulator",
-      "c": "ter in a superheterodyne receiver?",
-      "d": "Mixer"
+      "q": "What circuit is used to process signals from the RF amplifier and local oscillator then send the result to the IF filter in a superheterodyne receiver?",
+      "a": "Mixer",
+      "b": "IF amplifier",
+      "c": "Balanced modulator",
+      "d": "Detector"
     },
     "G7C04": {
       "id": "G7C04",
-      "q": "What circuit is used to combine signals from the IF amplifier and BFO and send the result to the AF amplifier",
-      "a": "Balanced modulator",
-      "b": "RF oscillator",
-      "c": "IF filter",
-      "d": "some single sideband receivers?"
+      "q": "What circuit is used to combine signals from the IF amplifier and BFO and send the result to the AF amplifier in some single sideband receivers?",
+      "a": "Product detector",
+      "b": "IF filter",
+      "c": "Balanced modulator",
+      "d": "RF oscillator"
     },
     "G7C05": {
       "id": "G7C05",
@@ -3174,11 +3174,11 @@ export default quizPool = {
     },
     "G7C06": {
       "id": "G7C06",
-      "q": "What should be the impedance of a low-pass filter as compared to the impedance of the transmission line into",
-      "a": "Substantially higher",
-      "b": "ch it is inserted?",
-      "c": "About the same",
-      "d": "Substantially lower"
+      "q": "What should be the impedance of a low-pass filter as compared to the impedance of the transmission line into which it is inserted?",
+      "a": "About the same",
+      "b": "Substantially higher",
+      "c": "Substantially lower",
+      "d": "Twice the transmission line impedance"
     },
     "G7C07": {
       "id": "G7C07",
@@ -3238,11 +3238,11 @@ export default quizPool = {
     },
     "G8A03": {
       "id": "G8A03",
-      "q": "What is the name of the process that changes the instantaneous frequency of an RF wave to convey",
-      "a": "Frequency conversion",
-      "b": "Frequency convolution",
-      "c": "Frequency transformation",
-      "d": "ormation?"
+      "q": "What is the name of the process that changes the instantaneous frequency of an RF wave to convey information?",
+      "a": "Frequency modulation",
+      "b": "Frequency transformation",
+      "c": "Frequency conversion",
+      "d": "Frequency convolution"
     },
     "G8A04": {
       "id": "G8A04",
@@ -3262,11 +3262,11 @@ export default quizPool = {
     },
     "G8A06": {
       "id": "G8A06",
-      "q": "What is one advantage of carrier suppression in a single sideband phone transmission versus full carrier",
-      "a": "Greater modulation percentage is obtainable with lower distortion",
-      "b": "Audio fidelity is improved",
-      "c": "litude modulation?",
-      "d": "Available transmitter power can be used more effectively"
+      "q": "What is one advantage of carrier suppression in a single sideband phone transmission versus full carrier amplitude modulation?",
+      "a": "Available transmitter power can be used more effectively",
+      "b": "Greater modulation percentage is obtainable with lower distortion",
+      "c": "Audio fidelity is improved",
+      "d": "Simpler receiving equipment can be used"
     },
     "G8A07": {
       "id": "G8A07",
@@ -3310,19 +3310,19 @@ export default quizPool = {
     },
     "G8B01": {
       "id": "G8B01",
-      "q": "What receiver stage combines a 14.250 MHz input signal with a 13.795 MHz oscillator signal to produce a 455",
-      "a": "intermediate frequency (IF) signal?",
-      "b": "Mixer",
-      "c": "BFO",
-      "d": "VFO"
+      "q": "What receiver stage combines a 14.250 MHz input signal with a 13.795 MHz oscillator signal to produce a 455 kHz intermediate frequency (IF) signal?",
+      "a": "Mixer",
+      "b": "BFO",
+      "c": "VFO",
+      "d": "Discriminator"
     },
     "G8B02": {
       "id": "G8B02",
-      "q": "If a receiver mixes a 13.800 MHz VFO with a 14.255 MHz received signal to produce a 455 kHz intermediate",
-      "a": "Quadrature noise",
-      "b": "quency (IF) signal, what type of interference will a 13.345 MHz signal produce in the receiver?",
-      "c": "Image response",
-      "d": "Mixer interference"
+      "q": "If a receiver mixes a 13.800 MHz VFO with a 14.255 MHz received signal to produce a 455 kHz intermediate frequency (IF) signal, what type of interference will a 13.345 MHz signal produce in the receiver?",
+      "a": "Image response",
+      "b": "Quadrature noise",
+      "c": "Mixer interference",
+      "d": "Intermediate interference"
     },
     "G8B03": {
       "id": "G8B03",
@@ -3334,11 +3334,11 @@ export default quizPool = {
     },
     "G8B04": {
       "id": "G8B04",
-      "q": "What is the stage in a VHF FM transmitter that generates a harmonic of a lower frequency signal to reach the",
-      "a": "Pre-emphasis network",
-      "b": "Mixer",
-      "c": "Reactance modulator",
-      "d": "ired operating frequency?"
+      "q": "What is the stage in a VHF FM transmitter that generates a harmonic of a lower frequency signal to reach the desired operating frequency?",
+      "a": "Multiplier",
+      "b": "Reactance modulator",
+      "c": "Pre-emphasis network",
+      "d": "Mixer"
     },
     "G8B05": {
       "id": "G8B05",
@@ -3350,19 +3350,19 @@ export default quizPool = {
     },
     "G8B06": {
       "id": "G8B06",
-      "q": "What is the total bandwidth of an FM phone transmission having 5 kHz",
-      "a": "8 kHz",
-      "b": "3 kHz",
-      "c": "5 kHz",
-      "d": "iation and 3 kHz modulating frequency?"
+      "q": "What is the total bandwidth of an FM phone transmission having 5 kHz deviation and 3 kHz modulating frequency?",
+      "a": "16 kHz",
+      "b": "5 kHz",
+      "c": "8 kHz",
+      "d": "3 kHz"
     },
     "G8B07": {
       "id": "G8B07",
-      "q": "What is the frequency deviation for a 12.21 MHz reactance modulated oscillator in a 5 kHz deviation, 146.52",
-      "a": "101.75 Hz",
-      "b": "FM phone transmitter?",
-      "c": "416.7 Hz",
-      "d": "5 kHz"
+      "q": "What is the frequency deviation for a 12.21 MHz reactance modulated oscillator in a 5 kHz deviation, 146.52 MHz FM phone transmitter?",
+      "a": "416.7 Hz",
+      "b": "101.75 Hz",
+      "c": "5 kHz",
+      "d": "60 kHz"
     },
     "G8B08": {
       "id": "G8B08",
@@ -3422,11 +3422,11 @@ export default quizPool = {
     },
     "G8C06": {
       "id": "G8C06",
-      "q": "What action results from a failure to exchange information due to excessive transmission attempts when using",
-      "a": "The checksum overflows",
-      "b": "TOR or WINMOR?",
-      "c": "The connection is dropped",
-      "d": "Packets will be routed incorrectly"
+      "q": "What action results from a failure to exchange information due to excessive transmission attempts when using PACTOR or WINMOR?",
+      "a": "The connection is dropped",
+      "b": "The checksum overflows",
+      "c": "Packets will be routed incorrectly",
+      "d": "Encoding reverts to the default character set"
     },
     "G8C07": {
       "id": "G8C07",
@@ -3478,11 +3478,11 @@ export default quizPool = {
     },
     "G9A01": {
       "id": "G9A01",
-      "q": "Which of the following factors determine the characteristic impedance of a parallel conductor antenna feed",
-      "a": "e?",
-      "b": "The distance between the centers of the conductors and the radius of the conductors",
-      "c": "The distance between the centers of the conductors and the length of the line",
-      "d": "The radius of the conductors and the frequency of the signal"
+      "q": "Which of the following factors determine the characteristic impedance of a parallel conductor antenna feed line?",
+      "a": "The distance between the centers of the conductors and the radius of the conductors",
+      "b": "The distance between the centers of the conductors and the length of the line",
+      "c": "The radius of the conductors and the frequency of the signal",
+      "d": "The frequency of the signal and the length of the line"
     },
     "G9A02": {
       "id": "G9A02",
@@ -3534,51 +3534,51 @@ export default quizPool = {
     },
     "G9A08": {
       "id": "G9A08",
-      "q": "If the SWR on an antenna feed line is 5 to 1, and a matching network at the transmitter end of the feed line is",
-      "a": "1 to 1",
-      "b": "usted to 1 to 1 SWR, what is the resulting SWR on the feed line?",
-      "c": "5 to 1",
-      "d": "Between 1 to 1 and 5 to 1 depending on the characteristic impedance of the line"
+      "q": "If the SWR on an antenna feed line is 5 to 1, and a matching network at the transmitter end of the feed line is adjusted to 1 to 1 SWR, what is the resulting SWR on the feed line?",
+      "a": "5 to 1",
+      "b": "1 to 1",
+      "c": "Between 1 to 1 and 5 to 1 depending on the characteristic impedance of the line",
+      "d": "Between 1 to 1 and 5 to 1 depending on the reflected power at the transmitter"
     },
     "G9A09": {
       "id": "G9A09",
-      "q": "What standing wave ratio will result when connecting a 50 ohm feed line to a non-reactive load having 200 ohm",
-      "a": "edance?",
-      "b": "4:1",
-      "c": "1:4",
-      "d": "2:1"
+      "q": "What standing wave ratio will result when connecting a 50 ohm feed line to a non-reactive load having 200 ohm impedance?",
+      "a": "4:1",
+      "b": "1:4",
+      "c": "2:1",
+      "d": "1:2"
     },
     "G9A10": {
       "id": "G9A10",
-      "q": "What standing wave ratio will result when connecting a 50 ohm feed line to a non-reactive load having 10 ohm",
-      "a": "1:5",
-      "b": "2:1",
-      "c": "50:1",
-      "d": "edance?"
+      "q": "What standing wave ratio will result when connecting a 50 ohm feed line to a non-reactive load having 10 ohm impedance?",
+      "a": "5:1",
+      "b": "50:1",
+      "c": "1:5",
+      "d": "2:1"
     },
     "G9A11": {
       "id": "G9A11",
-      "q": "What standing wave ratio will result when connecting a 50 ohm feed line to a non-reactive load having 50 ohm",
-      "a": "2:1",
-      "b": "edance?",
-      "c": "1:1",
-      "d": "50:50"
+      "q": "What standing wave ratio will result when connecting a 50 ohm feed line to a non-reactive load having 50 ohm impedance?",
+      "a": "1:1",
+      "b": "2:1",
+      "c": "50:50",
+      "d": "0:0"
     },
     "G9A12": {
       "id": "G9A12",
-      "q": "What standing wave ratio will result when connecting a 50 ohm feed line to a non-reactive load having 25 ohm",
-      "a": "edance?",
-      "b": "2:1",
-      "c": "2.5:1",
-      "d": "1.25:1"
+      "q": "What standing wave ratio will result when connecting a 50 ohm feed line to a non-reactive load having 25 ohm impedance?",
+      "a": "2:1",
+      "b": "2.5:1",
+      "c": "1.25:1",
+      "d": "You cannot determine SWR from impedance values"
     },
     "G9A13": {
       "id": "G9A13",
-      "q": "What standing wave ratio will result when connecting a 50 ohm feed line to an antenna that has a purely",
-      "a": "3:1",
-      "b": "1.5:1",
-      "c": "istive 300 ohm feed point impedance?",
-      "d": "6:1"
+      "q": "What standing wave ratio will result when connecting a 50 ohm feed line to an antenna that has a purely resistive 300 ohm feed point impedance?",
+      "a": "6:1",
+      "b": "3:1",
+      "c": "1.5:1",
+      "d": "You cannot determine SWR from impedance values"
     },
     "G9A14": {
       "id": "G9A14",
@@ -3606,19 +3606,19 @@ export default quizPool = {
     },
     "G9B02": {
       "id": "G9B02",
-      "q": "Which of the following is a common way to adjust the feed point impedance of a quarter wave ground plane",
-      "a": "Slope the radials upward",
-      "b": "tical antenna to be approximately 50 ohms?",
-      "c": "Slope the radials downward",
-      "d": "Lengthen the radials"
+      "q": "Which of the following is a common way to adjust the feed point impedance of a quarter wave ground plane vertical antenna to be approximately 50 ohms?",
+      "a": "Slope the radials downward",
+      "b": "Slope the radials upward",
+      "c": "Lengthen the radials",
+      "d": "Shorten the radials"
     },
     "G9B03": {
       "id": "G9B03",
-      "q": "What happens to the feed point impedance of a ground plane antenna when its radials are changed from",
-      "a": "It decreases",
-      "b": "izontal to sloping downward?",
-      "c": "It increases",
-      "d": "It stays the same"
+      "q": "What happens to the feed point impedance of a ground plane antenna when its radials are changed from horizontal to sloping downward?",
+      "a": "It increases",
+      "b": "It decreases",
+      "c": "It stays the same",
+      "d": "It reaches a maximum at an angle of 45 degrees"
     },
     "G9B04": {
       "id": "G9B04",
@@ -3646,27 +3646,27 @@ export default quizPool = {
     },
     "G9B07": {
       "id": "G9B07",
-      "q": "How does the feed point impedance of a 1/2 wave dipole antenna change as the antenna is lowered below 1/4",
-      "a": "It steadily increases",
-      "b": "e above ground?",
-      "c": "It steadily decreases",
-      "d": "It peaks at about 1/8 wavelength above ground"
+      "q": "How does the feed point impedance of a 1/2 wave dipole antenna change as the antenna is lowered below 1/4 wave above ground?",
+      "a": "It steadily decreases",
+      "b": "It steadily increases",
+      "c": "It peaks at about 1/8 wavelength above ground",
+      "d": "It is unaffected by the height above ground"
     },
     "G9B08": {
       "id": "G9B08",
-      "q": "How does the feed point impedance of a 1/2 wave dipole change as the feed point is moved from the center",
-      "a": "ard the ends?",
-      "b": "It steadily increases",
-      "c": "It steadily decreases",
-      "d": "It peaks at about 1/8 wavelength from the end"
+      "q": "How does the feed point impedance of a 1/2 wave dipole change as the feed point is moved from the center toward the ends?",
+      "a": "It steadily increases",
+      "b": "It steadily decreases",
+      "c": "It peaks at about 1/8 wavelength from the end",
+      "d": "It is unaffected by the location of the feed point"
     },
     "G9B09": {
       "id": "G9B09",
-      "q": "Which of the following is an advantage of a horizontally polarized as compared to a vertically polarized HF",
-      "a": "enna?",
-      "b": "Lower ground reflection losses",
-      "c": "Lower feed point impedance",
-      "d": "Shorter Radials"
+      "q": "Which of the following is an advantage of a horizontally polarized as compared to a vertically polarized HF antenna?",
+      "a": "Lower ground reflection losses",
+      "b": "Lower feed point impedance",
+      "c": "Shorter Radials",
+      "d": "Lower radiation resistance"
     },
     "G9B10": {
       "id": "G9B10",
@@ -3734,19 +3734,19 @@ export default quizPool = {
     },
     "G9C06": {
       "id": "G9C06",
-      "q": "What configuration of the loops of a two-element quad antenna must be used for the antenna to operate as a",
-      "a": "The reflector element must be approximately 5 percent shorter than the driven element",
-      "b": "The driven element must be fed with a balun transformer",
-      "c": "There must be an open circuit in the driven element at the point opposite the feed point",
-      "d": "m antenna, assuming one of the elements is used as a reflector?"
+      "q": "What configuration of the loops of a two-element quad antenna must be used for the antenna to operate as a beam antenna, assuming one of the elements is used as a reflector?",
+      "a": "The reflector element must be approximately 5 percent longer than the driven element",
+      "b": "There must be an open circuit in the driven element at the point opposite the feed point",
+      "c": "The reflector element must be approximately 5 percent shorter than the driven element",
+      "d": "The driven element must be fed with a balun transformer"
     },
     "G9C07": {
       "id": "G9C07",
       "q": "What does \"front-to-back ratio\" mean in reference to a Yagi antenna?",
-      "a": "The power radiated in the major radiation lobe compared to the power radiated in exactly the opposite",
+      "a": "The power radiated in the major radiation lobe compared to the power radiated in exactly the opposite direction",
       "b": "The relative position of the driven element with respect to the reflectors and directors",
       "c": "The number of directors versus the number of reflectors",
-      "d": "ection"
+      "d": "The ratio of forward gain to dipole gain"
     },
     "G9C08": {
       "id": "G9C08",
@@ -3758,19 +3758,19 @@ export default quizPool = {
     },
     "G9C09": {
       "id": "G9C09",
-      "q": "How does the gain of two 3-element horizontally polarized Yagi antennas spaced vertically 1/2 wavelength",
-      "a": "Approximately 1.5 dB higher",
-      "b": "rt typically compare to the gain of a single 3-element Yagi?",
-      "c": "Approximately 3 dB higher",
-      "d": "Approximately 6 dB higher"
+      "q": "How does the gain of two 3-element horizontally polarized Yagi antennas spaced vertically 1/2 wavelength apart typically compare to the gain of a single 3-element Yagi?",
+      "a": "Approximately 3 dB higher",
+      "b": "Approximately 1.5 dB higher",
+      "c": "Approximately 6 dB higher",
+      "d": "Approximately 9 dB higher"
     },
     "G9C10": {
       "id": "G9C10",
-      "q": "Which of the following is a Yagi antenna design variable that could be adjusted to optimize forward gain, front-",
-      "a": "The spacing of each element along the boom",
-      "b": "The physical length of the boom",
-      "c": "The number of elements on the boom",
-      "d": "back ratio, or SWR bandwidth?"
+      "q": "Which of the following is a Yagi antenna design variable that could be adjusted to optimize forward gain, front-to-back ratio, or SWR bandwidth?",
+      "a": "All of these choices are correct",
+      "b": "The number of elements on the boom",
+      "c": "The spacing of each element along the boom",
+      "d": "The physical length of the boom"
     },
     "G9C11": {
       "id": "G9C11",
@@ -3782,11 +3782,11 @@ export default quizPool = {
     },
     "G9C12": {
       "id": "G9C12",
-      "q": "Which of the following is an advantage of using a gamma match for impedance matching of a Yagi antenna to",
-      "a": "ohm coax feed line?",
-      "b": "It does not require that the elements be insulated from the boom",
-      "c": "It does not require any inductors or capacitors",
-      "d": "It is useful for matching multiband antennas"
+      "q": "Which of the following is an advantage of using a gamma match for impedance matching of a Yagi antenna to 50 ohm coax feed line?",
+      "a": "It does not require that the elements be insulated from the boom",
+      "b": "It does not require any inductors or capacitors",
+      "c": "It is useful for matching multiband antennas",
+      "d": "All of these choices are correct"
     },
     "G9C13": {
       "id": "G9C13",
@@ -3798,11 +3798,11 @@ export default quizPool = {
     },
     "G9C14": {
       "id": "G9C14",
-      "q": "How does the forward gain of a two-element quad antenna compare to the forward gain of a three-element Yagi",
-      "a": "About 2/3 as much",
-      "b": "enna?",
-      "c": "About the same",
-      "d": "About 1.5 times as much"
+      "q": "How does the forward gain of a two-element quad antenna compare to the forward gain of a three-element Yagi antenna?",
+      "a": "About the same",
+      "b": "About 2/3 as much",
+      "c": "About 1.5 times as much",
+      "d": "About twice as much"
     },
     "G9C15": {
       "id": "G9C15",
@@ -3830,11 +3830,11 @@ export default quizPool = {
     },
     "G9C18": {
       "id": "G9C18",
-      "q": "What happens when the feed point of a quad antenna of any shape is moved from the midpoint of the top or",
-      "a": "tom to the midpoint of either side?",
-      "b": "The polarization of the radiated signal changes from horizontal to vertical",
-      "c": "The polarization of the radiated signal changes from vertical to horizontal",
-      "d": "There is no change in polarization"
+      "q": "What happens when the feed point of a quad antenna of any shape is moved from the midpoint of the top or bottom to the midpoint of either side?",
+      "a": "The polarization of the radiated signal changes from horizontal to vertical",
+      "b": "The polarization of the radiated signal changes from vertical to horizontal",
+      "c": "There is no change in polarization",
+      "d": "The radiated signal becomes circularly polarized"
     },
     "G9C19": {
       "id": "G9C19",
@@ -3950,11 +3950,11 @@ export default quizPool = {
     },
     "G0A02": {
       "id": "G0A02",
-      "q": "Which of the following properties is important in estimating whether an RF signal exceeds the maximum",
-      "a": "Its power density",
-      "b": "Its duty cycle",
-      "c": "Its frequency",
-      "d": "missible exposure (MPE)?"
+      "q": "Which of the following properties is important in estimating whether an RF signal exceeds the maximum permissible exposure (MPE)?",
+      "a": "All of these choices are correct",
+      "b": "Its frequency",
+      "c": "Its power density",
+      "d": "Its duty cycle"
     },
     "G0A03": {
       "id": "G0A03",
@@ -3974,11 +3974,11 @@ export default quizPool = {
     },
     "G0A05": {
       "id": "G0A05",
-      "q": "What must you do if an evaluation of your station shows RF energy radiated from your station exceeds",
-      "a": "missible limits?",
-      "b": "Take action to prevent human exposure to the excessive RF fields",
-      "c": "File an Environmental Impact Statement (EIS-97) with the FCC",
-      "d": "Secure written permission from your neighbors to operate above the controlled MPE limits"
+      "q": "What must you do if an evaluation of your station shows RF energy radiated from your station exceeds permissible limits?",
+      "a": "Take action to prevent human exposure to the excessive RF fields",
+      "b": "File an Environmental Impact Statement (EIS-97) with the FCC",
+      "c": "Secure written permission from your neighbors to operate above the controlled MPE limits",
+      "d": "All of these choices are correct"
     },
     "G0A06": {
       "id": "G0A06",
@@ -3998,11 +3998,11 @@ export default quizPool = {
     },
     "G0A08": {
       "id": "G0A08",
-      "q": "Which of the following steps must an amateur operator take to ensure compliance with RF safety regulations",
-      "a": "Post a copy of OET Bulletin 65 in the station",
-      "b": "Post a copy of FCC Part 97.13 in the station",
-      "c": "n transmitter power exceeds levels specified in FCC Part 97.13?",
-      "d": "Perform a routine RF exposure evaluation"
+      "q": "Which of the following steps must an amateur operator take to ensure compliance with RF safety regulations when transmitter power exceeds levels specified in FCC Part 97.13?",
+      "a": "Perform a routine RF exposure evaluation",
+      "b": "Post a copy of OET Bulletin 65 in the station",
+      "c": "Post a copy of FCC Part 97.13 in the station",
+      "d": "All of these choices are correct"
     },
     "G0A09": {
       "id": "G0A09",
@@ -4014,11 +4014,11 @@ export default quizPool = {
     },
     "G0A10": {
       "id": "G0A10",
-      "q": "What is one thing that can be done if evaluation shows that a neighbor might receive more than the allowable",
-      "a": "Use an antenna with a higher front-to-back ratio",
-      "b": "Change to a non-polarized antenna with higher gain",
-      "c": "Post a warning sign that is clearly visible to the neighbor",
-      "d": "it of RF exposure from the main lobe of a directional antenna?"
+      "q": "What is one thing that can be done if evaluation shows that a neighbor might receive more than the allowable limit of RF exposure from the main lobe of a directional antenna?",
+      "a": "Take precautions to ensure that the antenna cannot be pointed in their direction",
+      "b": "Post a warning sign that is clearly visible to the neighbor",
+      "c": "Use an antenna with a higher front-to-back ratio",
+      "d": "Change to a non-polarized antenna with higher gain"
     },
     "G0A11": {
       "id": "G0A11",
@@ -4038,27 +4038,27 @@ export default quizPool = {
     },
     "G0B01": {
       "id": "G0B01",
-      "q": "Which wire or wires in a four-conductor connection should be attached to fuses or circuit breakers in a device",
-      "a": "rated from a 240 VAC single phase source?",
-      "b": "Only the two wires carrying voltage",
-      "c": "Only the neutral wire",
-      "d": "Only the ground wire"
+      "q": "Which wire or wires in a four-conductor connection should be attached to fuses or circuit breakers in a device operated from a 240 VAC single phase source?",
+      "a": "Only the two wires carrying voltage",
+      "b": "Only the neutral wire",
+      "c": "Only the ground wire",
+      "d": "All wires"
     },
     "G0B02": {
       "id": "G0B02",
-      "q": "What is the minimum wire size that may be safely used for a circuit that draws up to 20 amperes of continuous",
-      "a": "AWG number 16",
-      "b": "AWG number 20",
-      "c": "rent?",
-      "d": "AWG number 12"
+      "q": "What is the minimum wire size that may be safely used for a circuit that draws up to 20 amperes of continuous current?",
+      "a": "AWG number 12",
+      "b": "AWG number 16",
+      "c": "AWG number 20",
+      "d": "AWG number 8"
     },
     "G0B03": {
       "id": "G0B03",
-      "q": "Which size of fuse or circuit breaker would be appropriate to use with a circuit that uses AWG number 14",
-      "a": "30 amperes",
-      "b": "100 amperes",
-      "c": "60 amperes",
-      "d": "ing?"
+      "q": "Which size of fuse or circuit breaker would be appropriate to use with a circuit that uses AWG number 14 wiring?",
+      "a": "15 amperes",
+      "b": "60 amperes",
+      "c": "30 amperes",
+      "d": "100 amperes"
     },
     "G0B04": {
       "id": "G0B04",
@@ -4070,11 +4070,11 @@ export default quizPool = {
     },
     "G0B05": {
       "id": "G0B05",
-      "q": "Which of the following conditions will cause a Ground Fault Circuit Interrupter (GFCI) to disconnect the 120 or",
-      "a": "Current flowing from one or more of the voltage-carrying wires to the neutral wire",
-      "b": "Volt AC line power to a device?",
-      "c": "Current flowing from one or more of the voltage-carrying wires directly to ground",
-      "d": "Overvoltage on the voltage-carrying wires"
+      "q": "Which of the following conditions will cause a Ground Fault Circuit Interrupter (GFCI) to disconnect the 120 or 240 Volt AC line power to a device?",
+      "a": "Current flowing from one or more of the voltage-carrying wires directly to ground",
+      "b": "Current flowing from one or more of the voltage-carrying wires to the neutral wire",
+      "c": "Overvoltage on the voltage-carrying wires",
+      "d": "All of these choices are correct"
     },
     "G0B06": {
       "id": "G0B06",
@@ -4102,11 +4102,11 @@ export default quizPool = {
     },
     "G0B09": {
       "id": "G0B09",
-      "q": "Why should soldered joints not be used with the wires that connect the base of a tower to a system of ground",
-      "a": "Solder has too high a dielectric constant to provide adequate lightning protection",
-      "b": "The resistance of solder is too high",
-      "c": "Solder flux will prevent a low conductivity connection",
-      "d": "s?"
+      "q": "Why should soldered joints not be used with the wires that connect the base of a tower to a system of ground rods?",
+      "a": "A soldered joint will likely be destroyed by the heat of a lightning strike",
+      "b": "Solder flux will prevent a low conductivity connection",
+      "c": "Solder has too high a dielectric constant to provide adequate lightning protection",
+      "d": "The resistance of solder is too high"
     },
     "G0B10": {
       "id": "G0B10",

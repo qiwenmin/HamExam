@@ -759,8 +759,7 @@ D. Destroy the application form
 
 E1E13 (B) [97.509]
 Which of these choices is an acceptable method for monitoring the applicants if a VEC opts to conduct an exam session remotely?
-A. Record the exam session on video tape for later review by the
-VE team
+A. Record the exam session on video tape for later review by the VE team
 B. Use a real-time video link and the Internet to connect the exam session to the observing VEs
 C. The exam proctor observes the applicants and reports any violations
 D. Have each applicant sign an affidavit stating that all session rules were followed
@@ -1346,9 +1345,9 @@ D. Latitude and longitude
 
 E2D12 (A)
 How does JT65 improve EME communications?
-It can decode signals many dB below the noise floor using FEC
-It controls the receiver to track Doppler shift
-It supplies signals to guide the antenna to track the Moon
+A. It can decode signals many dB below the noise floor using FEC
+B. It controls the receiver to track Doppler shift
+C. It supplies signals to guide the antenna to track the Moon
 D. All of these choices are correct
 ~~
 
@@ -4074,10 +4073,11 @@ D. The amplitude of the signals passing through the filter
 
 E7C09 (B)
 What is a Jones filter as used as part of an HF receiver IF stage?
- A. An automatic notch filter
+A. An automatic notch filter
 B. A variable bandwidth crystal lattice filter
 C. A special filter that emphasizes image responses
 D. A filter that removes impulse noise
+~~
 
 E7C10 (B)
 Which of the following filters would be the best choice for use in a 2 meter repeater duplexer?
@@ -4608,10 +4608,10 @@ D. Colpitts, Hartley and Pierce
 
 E7H02 (C)
 Which describes a microphonic?
-An IC used for amplifying microphone signals
-Distortion caused by RF pickup on the microphone cable
-Changes in oscillator frequency due to mechanical vibration
-Excess loading of the microphone by an oscillator
+A. An IC used for amplifying microphone signals
+B. Distortion caused by RF pickup on the microphone cable
+C. Changes in oscillator frequency due to mechanical vibration
+D. Excess loading of the microphone by an oscillator
 ~~
 
 E7H03 (A)
@@ -4648,18 +4648,18 @@ D. Negative feedback and balanced feedback
 
 E7H07 (D)
 How can an oscillator’s microphonic responses be reduced?
-Use of NP0 capacitors
-Eliminating noise on the oscillator’s power supply
-Using the oscillator only for CW and digital signals
-Mechanically isolating the oscillator circuitry from its enclosure
+A. Use of NP0 capacitors
+B. Eliminating noise on the oscillator’s power supply
+C. Using the oscillator only for CW and digital signals
+D. Mechanically isolating the oscillator circuitry from its enclosure
 ~~
 
 E7H08 (A)
 Which of the following components can be used to reduce thermal drift in crystal oscillators?
-NP0 capacitors
-Toroidal inductors
-Wirewound resistors
-Non-inductive resistors
+A. NP0 capacitors
+B. Toroidal inductors
+C. Wirewound resistors
+D. Non-inductive resistors
 ~~
 
 E7H09 (A)
@@ -5107,7 +5107,7 @@ A. Faster transmission rate
 B. The signal can overpower interfering signals
 C. Foreign language characters can be sent
 D. Some types of errors can be detected
-
+~~
 
 SUBELEMENT E9 - ANTENNAS AND TRANSMISSION LINES [8 Exam Questions - 8 Groups]
 
@@ -5664,8 +5664,7 @@ D. The driven element radiation resistance must be higher than the characteristi
 ~~
 
 E9E06 (C)
-What is the equivalent lumped-constant network for a hairpin matching system of a
-3-element Yagi?
+What is the equivalent lumped-constant network for a hairpin matching system of a 3-element Yagi?
 A. Pi-network
 B. Pi-L-network
 C. A shunt inductor

@@ -30,19 +30,36 @@ lineReader.on('line', function (line) {
     }
     quiz.next = 'a';
   } else if (quiz.next == 'a') {
+    if (line.substring(0, 3).toUpperCase() != 'A. ') {
+      console.error('ERROR A:', quiz.id);
+    }
     quiz.a = line.substring(3).trim();
     quiz.next = 'b';
   } else if (quiz.next == 'b') {
+    if (line.substring(0, 3).toUpperCase() != 'B. ') {
+      console.error('ERROR B:', quiz.id);
+    }
     quiz.b = line.substring(3).trim();
     quiz.next = 'c';
   } else if (quiz.next == 'c') {
+    if (line.substring(0, 3).toUpperCase() != 'C. ') {
+      console.error('ERROR C:', quiz.id);
+    }
     quiz.c = line.substring(3).trim();
     quiz.next = 'd';
   } else if (quiz.next == 'd') {
+    if (line.substring(0, 3).toUpperCase() != 'D. ') {
+      console.error('ERROR D:', quiz.id);
+    }
     quiz.d = line.substring(3).trim();
-    quiz.next = 'id';
+    quiz.next = '~~';
+  } else if (quiz.next == '~~') {
+    if (line.substring(0, 2) != '~~') {
+      console.error('ERROR ~:', quiz.id);
+    }
 
     quizLib.push(quiz);
+
     quiz = { next: 'id' };
   }
 }).on('close', function () {

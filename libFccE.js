@@ -1204,10 +1204,10 @@ export default quizPool = {
     "E1E13": {
       "id": "E1E13",
       "q": "Which of these choices is an acceptable method for monitoring the applicants if a VEC opts to conduct an exam session remotely?",
-      "a": "team",
-      "b": "Record the exam session on video tape for later review by the",
-      "c": "Use a real-time video link and the Internet to connect the exam session to the observing VEs",
-      "d": "The exam proctor observes the applicants and reports any violations"
+      "a": "Use a real-time video link and the Internet to connect the exam session to the observing VEs",
+      "b": "Record the exam session on video tape for later review by the VE team",
+      "c": "The exam proctor observes the applicants and reports any violations",
+      "d": "Have each applicant sign an affidavit stating that all session rules were followed"
     },
     "E1E14": {
       "id": "E1E14",
@@ -1764,9 +1764,9 @@ export default quizPool = {
     "E2D12": {
       "id": "E2D12",
       "q": "How does JT65 improve EME communications?",
-      "a": "can decode signals many dB below the noise floor using FEC",
-      "b": "controls the receiver to track Doppler shift",
-      "c": "supplies signals to guide the antenna to track the Moon",
+      "a": "It can decode signals many dB below the noise floor using FEC",
+      "b": "It controls the receiver to track Doppler shift",
+      "c": "It supplies signals to guide the antenna to track the Moon",
       "d": "All of these choices are correct"
     },
     "E2D13": {
@@ -4953,10 +4953,10 @@ export default quizPool = {
     "E7H02": {
       "id": "E7H02",
       "q": "Which describes a microphonic?",
-      "a": "nges in oscillator frequency due to mechanical vibration",
-      "b": "tortion caused by RF pickup on the microphone cable",
-      "c": "IC used for amplifying microphone signals",
-      "d": "ess loading of the microphone by an oscillator"
+      "a": "Changes in oscillator frequency due to mechanical vibration",
+      "b": "Distortion caused by RF pickup on the microphone cable",
+      "c": "An IC used for amplifying microphone signals",
+      "d": "Excess loading of the microphone by an oscillator"
     },
     "E7H03": {
       "id": "E7H03",
@@ -4993,18 +4993,18 @@ export default quizPool = {
     "E7H07": {
       "id": "E7H07",
       "q": "How can an oscillator’s microphonic responses be reduced?",
-      "a": "hanically isolating the oscillator circuitry from its enclosure",
-      "b": "minating noise on the oscillator’s power supply",
-      "c": "ng the oscillator only for CW and digital signals",
-      "d": "of NP0 capacitors"
+      "a": "Mechanically isolating the oscillator circuitry from its enclosure",
+      "b": "Eliminating noise on the oscillator’s power supply",
+      "c": "Using the oscillator only for CW and digital signals",
+      "d": "Use of NP0 capacitors"
     },
     "E7H08": {
       "id": "E7H08",
       "q": "Which of the following components can be used to reduce thermal drift in crystal oscillators?",
-      "a": "capacitors",
-      "b": "oidal inductors",
-      "c": "ewound resistors",
-      "d": "-inductive resistors"
+      "a": "NP0 capacitors",
+      "b": "Toroidal inductors",
+      "c": "Wirewound resistors",
+      "d": "Non-inductive resistors"
     },
     "E7H09": {
       "id": "E7H09",
@@ -5983,11 +5983,11 @@ export default quizPool = {
     },
     "E9E06": {
       "id": "E9E06",
-      "q": "What is the equivalent lumped-constant network for a hairpin matching system of a",
-      "a": "Pi-L-network",
-      "b": "Pi-network",
-      "c": "lement Yagi?",
-      "d": "A shunt inductor"
+      "q": "What is the equivalent lumped-constant network for a hairpin matching system of a 3-element Yagi?",
+      "a": "A shunt inductor",
+      "b": "Pi-L-network",
+      "c": "Pi-network",
+      "d": "A series capacitor"
     },
     "E9E07": {
       "id": "E9E07",
