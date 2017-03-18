@@ -42,7 +42,7 @@ export default class Start extends Component {
 
   _importStudyRecords() {
     studyRecord.importFromClipboard(['a', 'b', 'c', 'fccT', 'fccG', 'fccE']).then(() => {
-      Alert.alert('导出成功', '学习记录已从剪贴板中导入。');
+      Alert.alert('导入成功', '学习记录已从剪贴板中导入。');
     }, (err) => {
       Alert.alert('出错啦！', '错误：' + JSON.stringify(err) + '\n\n请确认已经将以前导出的学习记录复制到剪贴板中。');
     });
