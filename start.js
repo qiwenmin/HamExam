@@ -32,6 +32,22 @@ export default class Start extends Component {
     }
   }
 
+  _exportStudyRecords() {
+    studyRecord.exportToClipboard(['a', 'b', 'c', 'fccT', 'fccG', 'fccE']).then((result) => {
+      Alert.alert('导出成功', '学习记录已经导出到剪贴板中。');
+    }, (err) => {
+      Alert.alert('出错啦！', JSON.stringify(err));
+    });
+  }
+
+  _importStudyRecords() {
+    studyRecord.importFromClipboard(['a', 'b', 'c', 'fccT', 'fccG', 'fccE']).then(() => {
+      Alert.alert('导出成功', '学习记录已从剪贴板中导入。');
+    }, (err) => {
+      Alert.alert('出错啦！', '错误：' + JSON.stringify(err) + '\n\n请确认已经将以前导出的学习记录复制到剪贴板中。');
+    });
+  }
+
   render() {
     return (
       <View style={styles.container}>
@@ -72,6 +88,18 @@ export default class Start extends Component {
               【FCC-E】共{Libs.fccE.total}道题，考{Libs.fccE.quizCount}道题。
             </Text>
           </TouchableHighlight>
+          <Text/>
+          <TouchableHighlight underlayColor='#eee' onPress={() => this._exportStudyRecords()}>
+            <Text style={styles.buttonText}>
+              【导出学习记录】
+            </Text>
+          </TouchableHighlight>
+          <TouchableHighlight underlayColor='#eee' onPress={() => this._importStudyRecords()}>
+            <Text style={styles.buttonText}>
+              【导入学习记录】
+            </Text>
+          </TouchableHighlight>
+
         </View>
         <TouchableHighlight underlayColor='#eee' onPress={() => {
           Alert.alert('题库',
