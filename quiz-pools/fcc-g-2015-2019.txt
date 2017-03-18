@@ -3539,7 +3539,7 @@ D. Feeding the antenna with unbalanced feed line
 G9A05 (B)
 How does the attenuation of coaxial cable change as the frequency of the signal it is carrying increases?
 A. Attenuation is independent of frequency
-B. Attenuation decreases
+B. Attenuation increases
 C. Attenuation decreases
 D. Attenutation reaches a maximum at approximately 18 MHz
 ~~

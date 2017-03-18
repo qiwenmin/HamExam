@@ -3511,7 +3511,7 @@ export default quizPool = {
     "G9A05": {
       "id": "G9A05",
       "q": "How does the attenuation of coaxial cable change as the frequency of the signal it is carrying increases?",
-      "a": "Attenuation decreases",
+      "a": "Attenuation increases",
       "b": "Attenuation is independent of frequency",
       "c": "Attenuation decreases",
       "d": "Attenutation reaches a maximum at approximately 18 MHz"
