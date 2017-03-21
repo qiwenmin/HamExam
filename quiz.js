@@ -119,8 +119,9 @@ export default class Quiz extends Component {
       this.tested.add(quizId);
     } else {
       this.props.context.record.studied.add(quizId);
-      studyRecord.save(this.props.context.level, this.props.context.record);
     }
+
+    studyRecord.save(this.props.context.level, this.props.context.record);
 
     this.selectedAnswer = idx;
     this.setState({
