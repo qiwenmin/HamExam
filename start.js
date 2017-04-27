@@ -111,7 +111,7 @@ export default class Start extends Component {
           );
         }}>
           <Text style={styles.copy}>
-            © Qi Wenmin, 2017 | Version: {DeviceInfo.getVersion()}
+            © BG1REN, 2017 | Version: {DeviceInfo.getVersion()}
           </Text>
         </TouchableHighlight>
       </View>

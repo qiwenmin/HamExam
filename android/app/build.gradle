@@ -90,8 +90,8 @@ android {
         applicationId "org.easy_program.hamexam"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 15
-        versionName "1.14"
+        versionCode 16
+        versionName "1.15"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
