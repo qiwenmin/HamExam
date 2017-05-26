@@ -15,29 +15,29 @@
 
 ### 首页
 
-![首页](screenshots/home.png)
+<img alt="首页" src="screenshots/home.png" width="50%" height="50%"/>
 
 ### C类
 
-![C类](screenshots/level-c.png)
+<img alt="C类" src="screenshots/level-c.png" width="50%" height="50%"/>
 
 ### 学习
 
-![C类学习](screenshots/level-c-study.png)
+<img alt="C类学习" src="screenshots/level-c-study.png" width="50%" height="50%"/>
 
-![E学习](screenshots/level-e-study.png)
+<img alt="E学习" src="screenshots/level-e-study.png" width="50%" height="50%"/>
 
 ### 练习错题
 
-![练习错题](screenshots/level-c-review.png)
+<img alt="练习错题" src="screenshots/level-c-review.png" width="50%" height="50%"/>
 
 ### 模拟考试
 
-![模拟考试](screenshots/level-c-exam.png)
+<img alt="模拟考试" src="screenshots/level-c-exam.png" width="50%" height="50%"/>
 
 ### 题库版本
 
-![题库版本](screenshots/libs-version.png)
+<img alt="题库版本" src="screenshots/libs-version.png" width="50%" height="50%"/>
 
 ## 开发
 
