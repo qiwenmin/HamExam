@@ -283,21 +283,25 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   title: {
+    color: '#000',
     fontSize: 20,
     fontWeight: 'bold',
   },
   q: {
+    color: '#000',
     fontSize: 16,
     fontWeight: 'bold',
     textAlign: 'left',
     margin: 10,
   },
   a: {
+    color: '#000',
     fontSize: 16,
     textAlign: 'left',
     margin: 5,
   },
   buttonText: {
+    color: '#000',
     textAlign: 'center',
     margin: 10,
   },

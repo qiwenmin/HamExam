@@ -108,14 +108,17 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   title: {
+    color: '#000',
     fontSize: 20,
     fontWeight: 'bold',
   },
   instructions: {
+    color: '#000',
     textAlign: 'center',
     margin: 10,
   },
   buttonText: {
+    color: '#000',
     fontSize: 15,
     fontWeight: 'bold',
     margin: 10,
